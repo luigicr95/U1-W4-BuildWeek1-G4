@@ -112,4 +112,5 @@ i {
 hr{
     width: 100px;
     color: gray;
-    border-style:inset
+    border-style:inset;
+}
