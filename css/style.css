@@ -1,0 +1,79 @@
+:before,
+:after {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin: 0;
+}
+
+#container {
+  width: 100%;
+}
+
+#about-us {
+  background-color: #f6f6f6;
+  padding: 100px 0px;
+}
+
+#introduction {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#image-and-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#grey-text {
+  color: #959595;
+}
+
+.orange-text {
+  color: #ff530a;
+}
+
+#blog-images {
+  padding: 100px 0px;
+  background-image: url(../images/blog/blog-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#from-the-blog {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#blog-title {
+  text-align: center;
+  color: white;
+}
+
+#recipe-item {
+  list-style: none;
+  padding: 0;
+  /*display: flex;
+  flex-wrap: wrap;
+  gap: 0px;*/
+}
+
+.dish-description {
+  background-color: white;
+  float: right;
+  min-width: 50%;
+  text-align: center;
+}
+
+.dish-image {
+  min-width: 50%;
+}
+
+li {
+  display: flex;
+  width: 50%;
+}
