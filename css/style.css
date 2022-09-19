@@ -57,9 +57,9 @@ body {
 #recipe-item {
   list-style: none;
   padding: 0;
-  /*display: flex;
+  display: flex;
   flex-wrap: wrap;
-  gap: 0px;*/
+  gap: 0px;
 }
 
 .dish-description {
@@ -70,10 +70,11 @@ body {
 }
 
 .dish-image {
-  min-width: 50%;
+  width: 50%;
 }
 
 li {
   display: flex;
   width: 50%;
+  background-color: white;
 }
