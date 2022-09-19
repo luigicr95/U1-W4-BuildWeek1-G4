@@ -54,7 +54,7 @@ body {
   color: white;
 }
 
-li {
+.list-dishes {
   display: flex;
   width: 50%;
   background-color: white;
