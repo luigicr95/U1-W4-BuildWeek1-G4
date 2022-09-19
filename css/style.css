@@ -54,6 +54,12 @@ body {
   color: white;
 }
 
+li {
+  display: flex;
+  width: 50%;
+  background-color: white;
+}
+
 #recipe-item {
   list-style: none;
   padding: 0;
@@ -65,16 +71,27 @@ body {
 .dish-description {
   background-color: white;
   float: right;
-  min-width: 50%;
+  width: 100%;
   text-align: center;
+  padding: 20px;
 }
 
 .dish-image {
-  width: 50%;
+  width: 100%;
 }
 
-li {
-  display: flex;
-  width: 50%;
-  background-color: white;
+.button {
+  background: #ff530a;
+  color: white;
+  padding: 30px 100px;
+  margin-top: -20px;
+  text-transform: uppercase;
+  float: right;
+  text-decoration: none;
+  border: 1px;
+}
+
+.dish-image:hover {
+  scale: 1.1;
+  rotate: 10deg;
 }
