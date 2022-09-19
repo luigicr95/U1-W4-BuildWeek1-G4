@@ -55,9 +55,9 @@ header{
 }
 
 #featured-works i {
-    position: fixed;
-    right: 115px;
-    top: 535px;
+    position: absolute;
+    right: 0px;
+    
 }
 
 
