@@ -1,0 +1,45 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
+header{
+    text-transform: uppercase;
+}
+    
+    #sfondo-navbar {
+    background-image: url(./images/header.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+#contenitore-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    height: 5.5em;
+}
+
+#menu-lista ul {
+    display: flex;
+    column-gap: 2em;
+    list-style: none;
+}
+
+#featured-works span {
+    color: orangered;
+}
+
+#immagini-scorrevoli {
+  
+    display: flex;
+    justify-content: space-around;
+}
+
+#immagini-scorrevoli img {
+    width: 20%;
+}
