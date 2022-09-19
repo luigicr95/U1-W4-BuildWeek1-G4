@@ -65,7 +65,6 @@ li {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0px;
 }
 
 .dish-description {
@@ -91,7 +90,7 @@ li {
   border: 1px;
 }
 
-.dish-image:hover {
+/*.dish-image:hover {
   scale: 1.1;
   rotate: 10deg;
-}
+}*/
