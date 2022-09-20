@@ -1,410 +1,444 @@
 main {
-    text-align: center;
+  text-align: center;
 }
 p {
-    color: #959595;
-    font-size: 0.8em;
+  color: #959595;
+  font-size: 0.8em;
 }
 
 /* section menu-2 (Antonino)*/
 #menu-2 {
-    padding: 60px 0px;
+  padding: 60px 0px;
 }
 #title-menu2 {
-    padding-bottom: 30px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 2em;
+  padding-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 2em;
 }
 .span {
-    color: orangered;
+  color: orangered;
 }
 .hr {
-    width: 10vw;
-    margin-bottom: 40px;
+  width: 10vw;
+  margin-bottom: 40px;
 }
 /*Section-price (Antonino)*/
 #section-price {
-    padding-top: 18vh;
-    padding-left: 5vw;
-    text-align: left;
-    padding-right: 5vw;
-    padding-bottom: 20vh;
+  padding-top: 18vh;
+  padding-left: 5vw;
+  text-align: left;
+  padding-right: 5vw;
+  padding-bottom: 20vh;
 }
 .span2 {
-    float: right;
+  float: right;
 }
 
 .h2 {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 .sottotitolo {
-    position: relative;
+  position: relative;
 }
 .text-right {
-    text-align: right;
-    padding-top: 50px;
-    padding-right: 2.5vw;
+  text-align: right;
+  padding-top: 50px;
+  padding-right: 2.5vw;
 }
 #border-bottom {
-    position: absolute;
-    top: 20px;
-    width: 68.5vw;
-    border: 1px dotted #c9c9c9;
-    margin-top: 20px;
-    margin-left: 175px;
+  position: absolute;
+  top: 20px;
+  width: 68.5vw;
+  border: 1px dotted #c9c9c9;
+  margin-top: 20px;
+  margin-left: 175px;
 }
 #border-bottom2 {
-    position: absolute;
-    top: 20px;
-    width: 61vw;
-    border: 1px dotted #c9c9c9;
-    margin-top: 20px;
-    margin-left: 278px;
+  position: absolute;
+  top: 20px;
+  width: 61vw;
+  border: 1px dotted #c9c9c9;
+  margin-top: 20px;
+  margin-left: 278px;
 }
 #border-bottom3 {
-    position: absolute;
-    top: 20px;
-    width: 61vw;
-    border: 1px dotted #c9c9c9;
-    margin-top: 20px;
-    margin-left: 275px;
+  position: absolute;
+  top: 20px;
+  width: 61vw;
+  border: 1px dotted #c9c9c9;
+  margin-top: 20px;
+  margin-left: 275px;
 }
 #border-bottom4 {
-    position: absolute;
-    top: 20px;
-    width: 69vw;
-    border: 1px dotted #c9c9c9;
-    margin-top: 20px;
-    margin-left: 170px;
+  position: absolute;
+  top: 20px;
+  width: 69vw;
+  border: 1px dotted #c9c9c9;
+  margin-top: 20px;
+  margin-left: 170px;
 }
 #border-bottom5 {
-    position: absolute;
-    top: 20px;
-    width: 52vw;
-    border: 1px dotted #c9c9c9;
-    margin-top: 20px;
-    margin-left: 405px;
+  position: absolute;
+  top: 20px;
+  width: 52vw;
+  border: 1px dotted #c9c9c9;
+  margin-top: 20px;
+  margin-left: 405px;
 }
 #border-bottom6 {
-    position: absolute;
-    top: 20px;
-    width: 72vw;
-    border: 1px dotted #c9c9c9;
-    margin-top: 20px;
-    margin-left: 135px;
+  position: absolute;
+  top: 20px;
+  width: 72vw;
+  border: 1px dotted #c9c9c9;
+  margin-top: 20px;
+  margin-left: 135px;
 }
 
 #button {
-    padding: 28px 105px;
-    background-color: none;
-    border: 1px solid #ff4f02;
-    color: #ff4f02;
-    text-transform: uppercase;
-    font-size: 15px;
+  padding: 28px 105px;
+  background-color: none;
+  border: 1px solid #ff4f02;
+  color: #ff4f02;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 #button:hover {
-    background-color: #ff4f02;
-    color: white;
+  background-color: #ff4f02;
+  color: white;
 }
 /*Section-subscribe (Antonino)*/
 #subscribe {
-    content: "";
-    color: white;
-    background: url("../assets/images/subscribe-bg.jpg");
-    height: 65vh;
-    width: 98vw;
-    right: 0;
-    position: absolute;
-    opacity: 0.8;
+  content: "";
+  color: white;
+  background: url("../assets/images/subscribe-bg.jpg");
+  height: 65vh;
+  width: 98vw;
+  right: 0;
+  position: absolute;
+  opacity: 0.8;
 }
 #position {
-    position: relative;
+  position: relative;
 }
 /*fine CSS di Antonino*/
+
+/*CSS Luigi Crisci*/
 body {
-    width: 100%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
 #about-us {
-    background-color: #f6f6f6;
-    padding: 100px 0px;
+  background-color: #f6f6f6;
+  padding: 100px 0px;
+  margin-top: 50px;
 }
 
 #introduction {
-    margin-left: 10%;
-    margin-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #image-and-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 #grey-text {
-    color: #959595;
+  color: #959595;
 }
 
 .orange-text {
-    color: #ff530a;
+  color: #ff530a;
 }
 
 #blog-images {
-    padding: 100px 0px;
-    background-image: url(../images/blog/blog-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  padding: 100px 0px;
+  background-image: url(../images/blog/blog-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #from-the-blog {
-    margin-left: 10%;
-    margin-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #blog-title {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
-.list-dishes {
-    display: flex;
-    width: 50%;
-    background-color: white;
+.single-dishes {
+  display: flex;
+  width: 50%;
+  background-color: white;
 }
+
+.actual-dish-image {
+  width: 100%;
+  height: 100%;
+}
+
+#fourth-image {
+  height: 100%;
+  width: 100%;
+}
+
+/*.grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid-item-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}*/
 
 #recipe-item {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /*display: grid;
+  gap: 0;*/
 }
 
 .dish-description {
-    background-color: white;
-    float: right;
-    width: 100%;
-    text-align: center;
-    padding: 20px;
+  background-color: white;
+  float: right;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
 }
 
-.dish-image {
-    width: 100%;
+.dish-image-div {
+  width: 50%;
+}
+
+.dish-image-4-div {
+  width: 50%;
 }
 
 .button {
-    background: #ff530a;
-    color: white;
-    padding: 30px 100px;
-    margin-top: -20px;
-    text-transform: uppercase;
-    float: right;
-    text-decoration: none;
-    border: 1px;
+  background: #ff530a;
+  color: white;
+  padding: 30px 100px;
+  margin-top: -20px;
+  text-transform: uppercase;
+  float: right;
+  text-decoration: none;
+  border: 1px;
 }
 
-/*.dish-image:hover {
+.dish-image:hover {
   scale: 1.1;
   rotate: 10deg;
-}*/
+  overflow: hidden;
+}
+
+/*Fine CSS Luigi Crisci*/
+
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a:link,
 a:visited,
 a:active {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 header {
-    text-transform: uppercase;
-    margin: -10px;
+  text-transform: uppercase;
+  margin: -10px;
 }
 
 #sfondo-navbar {
-    background-image: url(./images/header.jpg);
-    height: 500px;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 2em;
+  background-image: url(./images/header.jpg);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2em;
 }
 #contenitore-navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    margin: 0 auto;
-    width: 80%;
-    height: 5.5em;
-    opacity: 0.9;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin: 0 auto;
+  width: 80%;
+  height: 5.5em;
+  opacity: 0.9;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 
 #menu-lista ul {
-    display: flex;
-    column-gap: 2em;
-    list-style: none;
+  display: flex;
+  column-gap: 2em;
+  list-style: none;
 }
 
 #featured-works {
-    width: 80%;
-    margin: 0 auto;
-    position: relative;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
 }
 
 #featured-works i {
-    position: absolute;
-    right: 0px;
+  position: absolute;
+  right: 0px;
 }
 
 #featured-works span {
-    color: orangered;
+  color: orangered;
 }
 
 #immagini-scorrevoli {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 #immagini-scorrevoli img {
-    width: 200px;
+  width: 200px;
 }
 
 /* animazioni */
 .sottolineatura-menu-navbar {
-    display: inline-block;
-    position: relative;
-    padding-bottom: 0.5em;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.5em;
 }
 
 .sottolineatura-menu-navbar::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: orangered;
-    transition: width 0.25s ease-out;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: orangered;
+  transition: width 0.25s ease-out;
 }
 
 .sottolineatura-menu-navbar:hover::before {
-    width: 100%;
+  width: 100%;
 }
 
 .orange {
-    color: orangered;
+  color: orangered;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
 }
 input,
 textarea {
-    width: 100%;
-    display: block;
-    line-height: 3rem;
-    margin-block: 0.5rem;
-    padding-left: 15px;
-    outline-color: rgba(188, 188, 188, 0.599);
-    outline-style: solid;
-    border: 0px, solid;
-    box-shadow: none;
+  width: 100%;
+  display: block;
+  line-height: 3rem;
+  margin-block: 0.5rem;
+  padding-left: 15px;
+  outline-color: rgba(188, 188, 188, 0.599);
+  outline-style: solid;
+  border: 0px, solid;
+  box-shadow: none;
 }
 
 button {
-    align-self: flex-end;
-    width: 50%;
-    float: right;
-    margin: 0%;
-    line-height: 3rem;
-    color: white;
-    background-color: orangered;
-    border: 0ch;
+  align-self: flex-end;
+  width: 50%;
+  float: right;
+  margin: 0%;
+  line-height: 3rem;
+  color: white;
+  background-color: orangered;
+  border: 0ch;
 }
 
 #info {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: row;
-    width: 95%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 95%;
 }
 
 .footer-cal {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    padding-inline: 2%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding-inline: 2%;
+  align-items: center;
 }
 
 #copyright {
-    background-color: #e9e9e9;
-    line-height: 4rem;
-    margin-bottom: 0%;
-    width: 100%;
-    text-align: center;
+  background-color: #e9e9e9;
+  line-height: 4rem;
+  margin-bottom: 0%;
+  width: 100%;
+  text-align: center;
 }
 
 footer {
-    margin-bottom: 0%;
-    padding: 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin-bottom: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 i {
-    color: gray;
+  color: gray;
 }
 
 #social-pages I {
-    font-size: 2rem;
-    margin-right: 20px;
+  font-size: 2rem;
+  margin-right: 20px;
 }
 
 #photo-windows {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .picture {
-    width: 50px;
-    height: 50px;
-    background-color: antiquewhite;
-    margin-right: 15px;
+  width: 50px;
+  height: 50px;
+  background-color: antiquewhite;
+  margin-right: 15px;
 }
 
 hr {
-    width: 100px;
-    color: gray;
-    border-style: inset;
+  width: 100px;
+  color: gray;
+  border-style: inset;
 }
