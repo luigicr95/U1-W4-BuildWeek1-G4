@@ -211,6 +211,8 @@ body {
   scale: 1.1;
   rotate: 10deg;
 }*/
+
+/* css luigi I */
 *,
 *::before,
 *::after {
@@ -230,7 +232,7 @@ header {
 }
 
 #sfondo-navbar {
-    background-image: url(./images/header.jpg);
+    background-image: url(../images/header.jpg);
     height: 500px;
     background-size: cover;
     display: flex;
@@ -302,6 +304,8 @@ header {
 .sottolineatura-menu-navbar:hover::before {
     width: 100%;
 }
+
+/* fine css di luigi i */
 
 .orange {
     color: orangered;
