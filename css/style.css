@@ -258,6 +258,7 @@ header {
     display: flex;
     column-gap: 2em;
     list-style: none;
+    padding-top: 1.5em;
 }
 
 #featured-works {
