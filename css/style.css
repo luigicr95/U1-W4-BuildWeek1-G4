@@ -296,6 +296,13 @@ body {
   box-sizing: border-box;
 }
 
+html, body {
+	height: 100%;
+}
+#container {
+	min-height: 100%;
+}
+
 a:link,
 a:visited,
 a:active {
