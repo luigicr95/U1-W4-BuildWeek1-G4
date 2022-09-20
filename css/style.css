@@ -1,4 +1,13 @@
+<<<<<<< Updated upstream
 main {
+=======
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.p {
+>>>>>>> Stashed changes
     text-align: center;
 }
 p {
@@ -123,10 +132,15 @@ p {
     position: relative;
 }
 /*fine CSS di Antonino*/
+<<<<<<< Updated upstream
 body {
     width: 100%;
     margin: 0;
 }
+=======
+
+/*CSS Luigi Crisci*/
+>>>>>>> Stashed changes
 
 #about-us {
     background-color: #f6f6f6;
