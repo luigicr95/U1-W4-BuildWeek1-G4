@@ -4,45 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- ^^link bootstrap -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>Sito Restaurant</title>
   </head>
   <body>
     <div id="container">
+      <div id="contenitore-navbar">
+        <!-- ^^questo e il contenitore del navmenu, con il logo 
+        e il menu a lista, la navbar deve essere stiky   -->
+        <div id="logo"><img src="./images/logo.png" alt="logo" /></div>
+
+        <div id="menu-lista">
+          <ul>
+            <li class="sottolineatura-menu-navbar"><a href="#">Home</a></li>
+            <li class="sottolineatura-menu-navbar"><a href="#about-us">about us</a></li>
+            <li class="sottolineatura-menu-navbar"><a href="#blog-images">blog</a></li>
+            <li class="sottolineatura-menu-navbar"><a href="#menu-2">menu</a></li>
+            <li class="sottolineatura-menu-navbar"><a href="#">news</a></li>
+            <li class="sottolineatura-menu-navbar"><a href="#">contacts</a></li>
+          </ul>
+          <!-- le ultime 2 ancore sono da aggiungere -->
+
+          <!-- ^^questa è la lista della navbar -->
+        </div>
+        <!-- ^^ciude il menu-lista -->
+      </div>
       <header>
         <div id="sfondo-navbar">
           <!-- ^^immagine di sfondo dell'header -->
-          <div id="contenitore-navbar">
-            <!-- ^^questo e il contenitore del navmenu, con il logo 
-            e il menu a lista, la navbar deve essere stiky   -->
-            <div id="logo"><img src="./images/logo.png" alt="logo" /></div>
-
-            <div id="menu-lista">
-              <ul>
-                <li class="sottolineatura-menu-navbar"><a href="#">Home</a></li>
-                <li class="sottolineatura-menu-navbar">about us</li>
-                <li class="sottolineatura-menu-navbar">blog</li>
-                <li class="sottolineatura-menu-navbar">menu</li>
-                <li class="sottolineatura-menu-navbar">news</li>
-                <li class="sottolineatura-menu-navbar">contacts</li>
-              </ul>
-
-              <!-- ^^questa è la lista della navbar -->
-            </div>
-            <!-- ^^ciude il menu-lista -->
-          </div>
           <!-- ^^chiude contenitore navbar -->
         </div>
         <!-- ^^chiude il div  sfondo-navbar -->
         <div id="featured-works">
-          <i class="fas fa-chevron-right"></i>
+          <!-- <i class="fas fa-chevron-right"></i> -->
           <h3>featured <span>works</span></h3>
-          <div id="immagini-scorrevoli">
+
+          <div id="carosello-bootstrap">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/slider/slider-img-1.jpg" class="immagini-scorrevoli" alt="...">
+                  <img src="./images/slider/slider-img-2.jpg" class="immagini-scorrevoli" alt="...">
+                  <img src="./images/slider/slider-img-3.jpg" class="immagini-scorrevoli" alt="...">
+                  <img src="./images/slider/slider-img-4.jpg" class="immagini-scorrevoli" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/slider/slider-img-1.jpg" class="immagini-scorrevoli" alt="...">
+                  <img src="./images/slider/slider-img-2.jpg" class="immagini-scorrevoli" alt="...">
+                  <img src="./images/slider/slider-img-3.jpg" class="immagini-scorrevoli" alt="...">
+                  <img src="./images/slider/slider-img-4.jpg" class="immagini-scorrevoli" alt="...">
+                </div>
+               
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+          <!-- <div id="immagini-scorrevoli">
             <img src="./images/slider/slider-img-1.jpg" alt="immagine di un dolce" />
             <img src="./images/slider/slider-img-2.jpg" alt="immagine di un primo piatto" />
             <img src="./images/slider/slider-img-3.jpg" alt="immagine di un secondo piatto" />
             <img src="./images/slider/slider-img-4.jpg" alt="immagini delle crepes" />
-          </div>
+          </div>  ^^questa div è stata sostituita dal carosello-->
         </div>
       </header>
         <main>
@@ -78,72 +110,78 @@
           </div>
           <div id="recipe-list">
             <ul id="recipe-item">
-              <li class="list-dishes">
-                <div class="dish-image">
-                  <img src="./images/blog/blog-img-1.jpg" />
+              <li class="single-dishes grid-item-1">
+                <div class="dish-image-div">
+                  <img class="actual-dish-image" src="./images/blog/blog-img-1.jpg" />
                 </div>
                 <div class="dish-description">
                   <h3>Homestyle Chicken Pot Pie</h3>
+                  <hr>
                   <p>
                     Prepared in true New England fash-ion. Tender all-white meat
                     chicken simmered...
                   </p>
                 </div>
               </li>
-              <li class="list-dishes">
-                <div class="dish-image">
-                  <img src="./images/blog/blog-img-2.jpg" />
+              <li class="single-dishes grid-item-2">
+                <div class="dish-image-div">
+                  <img class="actual-dish-image" src="./images/blog/blog-img-2.jpg" />
                 </div>
                 <div class="dish-description">
                   <h3>Homestyle Chicken Pot Pie</h3>
+                  <hr>
                   <p>
                     Prepared in true New England fash-ion. Tender all-white meat
                     chicken simmered...
                   </p>
                 </div>
               </li>
-              <li class="list-dishes">
+              <li class="single-dishes grid-item-3">
                 <div class="dish-description">
                   <h3>Homestyle Chicken Pot Pie</h3>
+                  <hr>
                   <p>
                     Prepared in true New England fash-ion. Tender all-white meat
                     chicken simmered...
                   </p>
                 </div>
-                <div class="dish-image">
-                  <img src="./images/blog/blog-img-3.jpg" />
+                <div class="dish-image-div">
+                  <img class="actual-dish-image" src="./images/blog/blog-img-3.jpg" />
                 </div>
               </li>
-              <li class="list-dishes">
+              <li class="single-dishes grid-item-4">
                 <div class="dish-description">
                   <h3>Homestyle Chicken Pot Pie</h3>
+                  <hr>
                   <p>
                     Prepared in true New England fash-ion. Tender all-white meat
                     chicken simmered...
                   </p>
                 </div>
-                <div class="dish-image">
-                  <img src="./images/blog/blog-img-4.jpg" />
+                <div class="dish-image-4-div">
+                  <img id="fourth-image" src="./images/blog/blog-img-4.jpg" />
                 </div>
               </li>
-              <li class="list-dishes">
-                <div class="dish-image">
-                  <img src="./images/blog/blog-img-5.jpg" />
+              <li class="single-dishes grid-item-5">
+                <div class="dish-image-div">
+                  <img class="actual-dish-image" src="./images/blog/blog-img-5.jpg" />
                 </div>
                 <div class="dish-description">
                   <h3>Homestyle Chicken Pot Pie</h3>
+                  <hr>
                   <p>
                     Prepared in true New England fash-ion. Tender all-white meat
                     chicken simmered...
                   </p>
                 </div>
               </li>
-              <li class="list-dishes">
-                <div class="dish-image">
-                  <img src="./images/blog/blog-img-6.jpg" />
+              <li class="single-dishes grid-item-6">
+                <div class="dish-image-div">
+                  <img class="actual-dish-image" src="./images/blog/blog-img-6.jpg" />
                 </div>
                 <div class="dish-description">
                   <h3>Homestyle Chicken Pot Pie</h3>
+                  <hr>
                   <p>
                     Prepared in true New England fash-ion. Tender all-white meat
                     chicken simmered...
@@ -162,72 +200,60 @@
             <section id="menu-2">
               <h2 id="title-menu2">Our <span class="span"> MENU</span> the <span class="span">PRICE</span></h2>
               <hr class="hr" />
-              <p>
+              <p class="p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad<br />
                 minim veniam, quis nostrud exercitation ullamco
               </p>
               <div id="section-price">
-                <h3>FEATURED <span class="span">ON THE WEEK</span></h3>
+                <h3 class="h3">FEATURED <span class="span">ON THE WEEK</span></h3>
                 <div>
-                  <ul>
+                  <ul class="ul">
                     <li>
-                      <div>
-                        <div class="sottotitolo">
-                          <h2 class="h2">Pancakes n'Such</h2>
-                          <div id="border-bottom"></div>
-                          <span class="span2">$25.00</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                      <div class="sottotitolo">
+                        <h2 class="h2">Pancakes n'Such</h2>
+                        <div id="border-bottom"></div>
+                        <span class="span2">$25.00</span>
+                        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
                       </div>
                     </li>
                     <li>
-                      <div>
-                        <div class="sottotitolo">
-                          <h2  class="h2">Homestyle Chicken Pot Pie</h2>
-                          <div id="border-bottom2"></div>
-                          <span class="span2">$10.00</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                      <div class="sottotitolo">
+                        <h2  class="h2">Homestyle Chicken Pot Pie</h2>
+                        <div id="border-bottom2"></div>
+                        <span class="span2">$10.00</span>
+                        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
                       </div>
                     </li>
                     <li>
-                      <div>
-                        <div class="sottotitolo">
-                          <h2  class="h2">Cereal, Panecillos y Frutas</h2>
-                          <div id="border-bottom3"></div>
-                          <span class="span2">$5.00</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                      <div class="sottotitolo">
+                        <h2  class="h2">Cereal, Panecillos y Frutas</h2>
+                        <div id="border-bottom3"></div>
+                        <span class="span2">$5.00</span>
+                        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
                       </div>
                     </li>
                     <li>
-                      <div>
-                        <div class="sottotitolo">
-                          <h2  class="h2">Meat of Skewers</h2>
-                          <div id="border-bottom4"></div>
-                          <span class="span2">$15.00</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                      <div class="sottotitolo">
+                        <h2  class="h2">Meat of Skewers</h2>
+                        <div id="border-bottom4"></div>
+                        <span class="span2">$15.00</span>
+                        <p class="p"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
                       </div>
                     </li>
                     <li>
-                      <div>
-                        <div class="sottotitolo">
-                          <h2   class="h2">Steak whit a Garlic and Parsley Risotto</h2>
-                          <div id="border-bottom5"></div>
-                          <span class="span2">$75.00</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                      <div class="sottotitolo">
+                        <h2   class="h2">Steak whit a Garlic and Parsley Risotto</h2>
+                        <div id="border-bottom5"></div>
+                        <span class="span2">$75.00</span>
+                        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
                       </div>
                     </li>
                     <li>
-                      <div>
-                        <div class="sottotitolo">
-                          <h2  class="h2">Caesar Salad</h2>
-                          <div id="border-bottom6"></div>
-                          <span class="span2">$7.00</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
+                      <div class="sottotitolo">
+                        <h2  class="h2">Caesar Salad</h2>
+                        <div id="border-bottom6"></div>
+                        <span class="span2">$7.00</span>
+                        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
                       </div>
                     </li>
                   </ul>
@@ -236,14 +262,15 @@
                   </div>
                 </div>
               </div>
-              <div id="subscribe">
-                <div>
+              <div id="position">
+                <div  id="subscribe">
+                  <div class="centrale">
                   <div>
                     <h2>SUBSCRIBE <span class="span">to our</span> NEWSLETTER</h2>
                   </div>
+                  <hr>
                   <div">lorem ipsum dolor sit amet, consectetur adipiscingelit, sed do eiusmod</div>
-                  <div>
-                    <form action="">
+                    <form>
                       <input type="text" placeholder="Enter your e-mail to subscribe..." name="mail" required />
                       <input type="submit" value="Submit" />
                     </form>
@@ -333,6 +360,10 @@
   </footer>
   
   <script src="https://kit.fontawesome.com/ed897656ab.js" crossorigin="anonymous"></script>
+  <!--  -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!-- ^^script per bootstrap -->
 </div>
 </body>
 </html>
