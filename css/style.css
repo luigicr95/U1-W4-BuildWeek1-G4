@@ -129,9 +129,7 @@ body {
   margin: 0;
 }
 
-#container {
-  width: 100%;
-}
+
 
 #about-us {
   background-color: #f6f6f6;
@@ -227,11 +225,6 @@ a:active {
     text-decoration: none;
 }
 
- #container {
-    height: 2500px;
-    
-    
- }
 header{
     text-transform: uppercase;
     margin: -10px;
