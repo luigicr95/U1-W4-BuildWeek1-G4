@@ -119,4 +119,6 @@ text-align: center;
     right: 0;
     position: absolute;
     opacity: 0.8;
+}#position{
+    position: relative;
 }
