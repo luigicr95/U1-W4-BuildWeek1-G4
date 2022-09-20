@@ -298,6 +298,7 @@ body {
 
 html, body {
 	height: 100%;
+  margin: 0;
 }
 #container {
 	min-height: 100%;
@@ -323,6 +324,13 @@ header {
     margin-bottom: 2em;
     margin-top: -90px;
 }
+
+.img-overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.164);
+}
+
 #contenitore-navbar {
   display: flex;
   justify-content: space-around;
@@ -363,6 +371,8 @@ header {
 #carosello-bootstrap {
   width: 100%;
 }
+
+
 
 /* #immagini-scorrevoli {
     display: flex;
