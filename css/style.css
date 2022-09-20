@@ -245,6 +245,9 @@ body {
 
 /*Fine CSS Luigi Crisci*/
 
+
+
+/* css luigi I */
 *,
 *::before,
 *::after {
@@ -264,12 +267,13 @@ header {
 }
 
 #sfondo-navbar {
-  background-image: url(./images/header.jpg);
-  height: 500px;
-  background-size: cover;
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 2em;
+    background-image: url(../images/header.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2em;
+    margin-top: -90px;
 }
 #contenitore-navbar {
   display: flex;
@@ -286,9 +290,11 @@ header {
 }
 
 #menu-lista ul {
-  display: flex;
-  column-gap: 2em;
-  list-style: none;
+    display: flex;
+    column-gap: 2em;
+    list-style: none;
+    padding-top: 1.5em;
+    text-transform: uppercase;
 }
 
 #featured-works {
@@ -306,13 +312,14 @@ header {
   color: orangered;
 }
 
-#immagini-scorrevoli {
-  display: flex;
-  justify-content: space-around;
-}
+/* #immagini-scorrevoli {
+    display: flex;
+    justify-content: space-around;
+}  ^^questa regola l'ho commentata perchè inutile con bootstrap*/
 
-#immagini-scorrevoli img {
-  width: 200px;
+.immagini-scorrevoli {
+    width: 230px;
+    margin-right: 1em;
 }
 
 /* animazioni */
@@ -336,6 +343,8 @@ header {
 .sottolineatura-menu-navbar:hover::before {
   width: 100%;
 }
+
+/* fine css di luigi i */
 
 .orange {
   color: orangered;
