@@ -305,7 +305,6 @@ a:active {
 
 header {
   text-transform: uppercase;
-  margin: -10px;
 }
 
 #sfondo-navbar {
@@ -360,7 +359,7 @@ header {
 }  ^^questa regola l'ho commentata perchè inutile con bootstrap*/
 
 .immagini-scorrevoli {
-    width: 230px;
+    width: 219px;
     margin-right: 1em;
 }
 
