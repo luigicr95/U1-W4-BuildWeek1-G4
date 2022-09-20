@@ -1,9 +1,8 @@
-main {
-  text-align: center;
-}
-p {
-  color: #959595;
-  font-size: 0.8em;
+
+.p {
+    text-align: center;
+    color: #959595;
+    font-size: 0.8em;
 }
 
 /* section menu-2 (Antonino)*/
@@ -24,12 +23,15 @@ p {
   margin-bottom: 40px;
 }
 /*Section-price (Antonino)*/
+.ul{
+    list-style: none;
+}
 #section-price {
-  padding-top: 18vh;
-  padding-left: 5vw;
-  text-align: left;
-  padding-right: 5vw;
-  padding-bottom: 20vh;
+    padding-top: 10vh;
+    padding-left: 5px;
+    text-align: left;
+    padding-right: 3vw;
+    padding-bottom: 20vh;
 }
 .span2 {
   float: right;
@@ -39,61 +41,65 @@ p {
   display: inline-block;
   position: relative;
 }
+.h3{
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
 .sottotitolo {
-  position: relative;
+    position: relative;
+    margin-right: 20vw;
 }
 .text-right {
-  text-align: right;
-  padding-top: 50px;
-  padding-right: 2.5vw;
+    text-align: right;
+    padding-top: 50px;
 }
 #border-bottom {
-  position: absolute;
-  top: 20px;
-  width: 68.5vw;
-  border: 1px dotted #c9c9c9;
-  margin-top: 20px;
-  margin-left: 175px;
+    position: absolute;
+    top: 20px;
+    width: 50vw;
+    border: 1px dotted #c9c9c9;
+    margin-top: 20px;
+    margin-left: 175px;
 }
 #border-bottom2 {
-  position: absolute;
-  top: 20px;
-  width: 61vw;
-  border: 1px dotted #c9c9c9;
-  margin-top: 20px;
-  margin-left: 278px;
+    position: absolute;
+    top: 20px;
+    width: 44.5vw;
+    border: 1px dotted #c9c9c9;
+    margin-top: 20px;
+    margin-left: 278px;
 }
 #border-bottom3 {
-  position: absolute;
-  top: 20px;
-  width: 61vw;
-  border: 1px dotted #c9c9c9;
-  margin-top: 20px;
-  margin-left: 275px;
+    position: absolute;
+    top: 20px;
+    width: 44.5vw;
+    border: 1px dotted #c9c9c9;
+    margin-top: 20px;
+    margin-left: 275px;
 }
 #border-bottom4 {
-  position: absolute;
-  top: 20px;
-  width: 69vw;
-  border: 1px dotted #c9c9c9;
-  margin-top: 20px;
-  margin-left: 170px;
+    position: absolute;
+    top: 20px;
+    width: 50vw;
+    border: 1px dotted #c9c9c9;
+    margin-top: 20px;
+    margin-left: 170px;
 }
 #border-bottom5 {
-  position: absolute;
-  top: 20px;
-  width: 52vw;
-  border: 1px dotted #c9c9c9;
-  margin-top: 20px;
-  margin-left: 405px;
+    position: absolute;
+    top: 20px;
+    width: 38vw;
+    border: 1px dotted #c9c9c9;
+    margin-top: 20px;
+    margin-left: 405px;
 }
 #border-bottom6 {
-  position: absolute;
-  top: 20px;
-  width: 72vw;
-  border: 1px dotted #c9c9c9;
-  margin-top: 20px;
-  margin-left: 135px;
+    position: absolute;
+    top: 20px;
+    width: 52.5vw;
+    border: 1px dotted #c9c9c9;
+    margin-top: 20px;
+    margin-left: 135px;
 }
 
 #button {
@@ -109,18 +115,30 @@ p {
   color: white;
 }
 /*Section-subscribe (Antonino)*/
+
 #subscribe {
-  content: "";
-  color: white;
-  background: url("../assets/images/subscribe-bg.jpg");
-  height: 65vh;
-  width: 98vw;
-  right: 0;
-  position: absolute;
-  opacity: 0.8;
+    content: "";
+    color: white;
+    background-image: url("../assets/images/subscribe-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 23vw;
 }
 #position {
-  position: relative;
+    padding: 10px;
+    width: 100vw;
+}
+
+.centrale{
+    font-size: 1.5em;
+    padding: 100px 0px;
+    text-align: center;
 }
 /*fine CSS di Antonino*/
 
