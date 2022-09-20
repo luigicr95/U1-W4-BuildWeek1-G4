@@ -62,9 +62,11 @@ h4 {
 .h2 {
   display: inline-block;
   position: relative;
+  font-size: 1.5em;
 }
 .h3{
-    margin-left: 40px;
+    font-size: 1.5em;
+    margin-left: 30px;
     padding-bottom: 20px;
 }
 .sottotitolo {
@@ -145,12 +147,11 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    opacity: 0.8;
+    opacity: 0.9;
     right: 0;
     bottom: 0;
     top: 0;
     width: 100%;
-    height: 23vw;
 }
 #position {
     padding: 10px;
@@ -158,18 +159,28 @@ h4 {
 }
 
 .centrale{
-    font-size: 1.5em;
-    padding: 100px 0px;
+    font-size: 1em;
+    padding: 150px 0px;
     text-align: center;
 }
+.form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25vw;
+    width: 50vw;
+    padding-top: 30px;
+  }
+  .input{
+    width: 200px;
+  }
 /*fine CSS di Antonino*/
 
 /*CSS Luigi Crisci*/
 body {
-  width: 100%;
-  margin: 0;
-}
-
+    width: 100%;
+    margin: 0;
+  }
+  
 #about-us {
   background-color: #f6f6f6;
   padding: 100px 0px;
