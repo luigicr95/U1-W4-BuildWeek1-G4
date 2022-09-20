@@ -259,6 +259,7 @@ header {
     column-gap: 2em;
     list-style: none;
     padding-top: 1.5em;
+    text-transform: uppercase;
 }
 
 #featured-works {
@@ -276,13 +277,14 @@ header {
     color: orangered;
 }
 
-#immagini-scorrevoli {
+/* #immagini-scorrevoli {
     display: flex;
     justify-content: space-around;
-}
+}  ^^questa regola l'ho commentata perchè inutile con bootstrap*/
 
-#immagini-scorrevoli img {
-    width: 200px;
+.immagini-scorrevoli {
+    width: 230px;
+    margin-right: 1em;
 }
 
 /* animazioni */

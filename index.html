@@ -37,14 +37,43 @@
         </div>
         <!-- ^^chiude il div  sfondo-navbar -->
         <div id="featured-works">
-          <i class="fas fa-chevron-right"></i>
+          <!-- <i class="fas fa-chevron-right"></i> -->
           <h3>featured <span>works</span></h3>
-          <div id="immagini-scorrevoli">
+
+          <div id="carosello-bootstrap">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/slider/slider-img-1.jpg" class="immagini-scorrevoli" alt="...">
+                  <img src="./images/slider/slider-img-2.jpg" class="immagini-scorrevoli" alt="...">
+                  <img src="./images/slider/slider-img-3.jpg" class="immagini-scorrevoli" alt="...">
+                  <img src="./images/slider/slider-img-4.jpg" class="immagini-scorrevoli" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/slider/slider-img-1.jpg" class="immagini-scorrevoli" alt="...">
+                  <img src="./images/slider/slider-img-2.jpg" class="immagini-scorrevoli" alt="...">
+                  <img src="./images/slider/slider-img-3.jpg" class="immagini-scorrevoli" alt="...">
+                  <img src="./images/slider/slider-img-4.jpg" class="immagini-scorrevoli" alt="...">
+                </div>
+               
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+          <!-- <div id="immagini-scorrevoli">
             <img src="./images/slider/slider-img-1.jpg" alt="immagine di un dolce" />
             <img src="./images/slider/slider-img-2.jpg" alt="immagine di un primo piatto" />
             <img src="./images/slider/slider-img-3.jpg" alt="immagine di un secondo piatto" />
             <img src="./images/slider/slider-img-4.jpg" alt="immagini delle crepes" />
-          </div>
+          </div> -->
         </div>
       </header>
         <main>
