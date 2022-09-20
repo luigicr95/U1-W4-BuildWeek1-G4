@@ -238,6 +238,7 @@ header {
     display: flex;
     align-items: flex-end;
     margin-bottom: 2em;
+    margin-top: -90px;
 }
 #contenitore-navbar {
     display: flex;
