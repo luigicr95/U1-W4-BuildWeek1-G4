@@ -353,6 +353,10 @@ header {
      color: orangered;
 }
 
+#carosello-bootstrap {
+  width: 100%;
+}
+
 /* #immagini-scorrevoli {
     display: flex;
     justify-content: space-around;
