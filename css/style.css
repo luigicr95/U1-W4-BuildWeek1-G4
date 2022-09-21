@@ -18,37 +18,37 @@
   src: url(../fonts/fontawesome-webfont.eot) format("otf");
 } */
 
-
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 
-body h1{
+body h1 {
   font-size: 36px;
 }
-body h2{
-font-size: 24px;
+body h2 {
+  font-size: 24px;
 }
-body h3{
-font-size: 20px;
+body h3 {
+  font-size: 20px;
 }
-body h4{
-font-size: 18px;
+body h4 {
+  font-size: 18px;
 }
 
 body p {
   font-size: 16px;
 }
 
-
-
+main {
+  overflow-x: hidden;
+}
 
 .p {
-    text-align: center;
-    color: #959595;
-    font-size: 0.8em;
+  text-align: center;
+  color: #959595;
+  font-size: 0.8em;
 }
 
 /* section menu-2 (Antonino)*/
@@ -70,15 +70,15 @@ body p {
   color: grey;
 }
 /*Section-price (Antonino)*/
-.ul{
-    list-style: none;
+.ul {
+  list-style: none;
 }
 #section-price {
-    padding-top: 10vh;
-    padding-left: 5px;
-    text-align: left;
-    padding-right: 3vw;
-    padding-bottom: 20vh;
+  padding-top: 10vh;
+  padding-left: 5px;
+  text-align: left;
+  padding-right: 3vw;
+  padding-bottom: 20vh;
 }
 .span2 {
   float: right;
@@ -89,66 +89,66 @@ body p {
   position: relative;
   font-size: 1.5em;
 }
-.h3{
-    font-size: 1.5em;
-    margin-left: 30px;
-    padding-bottom: 20px;
+.h3 {
+  font-size: 1.5em;
+  margin-left: 30px;
+  padding-bottom: 20px;
 }
 .sottotitolo {
-    position: relative;
-    margin-right: 20vw;
+  position: relative;
+  margin-right: 20vw;
 }
 .text-right {
-    text-align: right;
-    padding-top: 50px;
+  text-align: right;
+  padding-top: 50px;
 }
 #border-bottom {
-    position: absolute;
-    top: 20px;
-    width: 50vw;
-    border: 1px dotted #c9c9c9;
-    margin-top: 20px;
-    margin-left: 175px;
+  position: absolute;
+  top: 20px;
+  width: 50vw;
+  border: 1px dotted #c9c9c9;
+  margin-top: 20px;
+  margin-left: 175px;
 }
 #border-bottom2 {
-    position: absolute;
-    top: 20px;
-    width: 44.5vw;
-    border: 1px dotted #c9c9c9;
-    margin-top: 20px;
-    margin-left: 278px;
+  position: absolute;
+  top: 20px;
+  width: 44.5vw;
+  border: 1px dotted #c9c9c9;
+  margin-top: 20px;
+  margin-left: 278px;
 }
 #border-bottom3 {
-    position: absolute;
-    top: 20px;
-    width: 44.5vw;
-    border: 1px dotted #c9c9c9;
-    margin-top: 20px;
-    margin-left: 275px;
+  position: absolute;
+  top: 20px;
+  width: 44.5vw;
+  border: 1px dotted #c9c9c9;
+  margin-top: 20px;
+  margin-left: 275px;
 }
 #border-bottom4 {
-    position: absolute;
-    top: 20px;
-    width: 50vw;
-    border: 1px dotted #c9c9c9;
-    margin-top: 20px;
-    margin-left: 170px;
+  position: absolute;
+  top: 20px;
+  width: 50vw;
+  border: 1px dotted #c9c9c9;
+  margin-top: 20px;
+  margin-left: 170px;
 }
 #border-bottom5 {
-    position: absolute;
-    top: 20px;
-    width: 38vw;
-    border: 1px dotted #c9c9c9;
-    margin-top: 20px;
-    margin-left: 405px;
+  position: absolute;
+  top: 20px;
+  width: 38vw;
+  border: 1px dotted #c9c9c9;
+  margin-top: 20px;
+  margin-left: 405px;
 }
 #border-bottom6 {
-    position: absolute;
-    top: 20px;
-    width: 52.5vw;
-    border: 1px dotted #c9c9c9;
-    margin-top: 20px;
-    margin-left: 135px;
+  position: absolute;
+  top: 20px;
+  width: 52.5vw;
+  border: 1px dotted #c9c9c9;
+  margin-top: 20px;
+  margin-left: 135px;
 }
 
 #button {
@@ -166,54 +166,54 @@ body p {
 /*Section-subscribe (Antonino)*/
 
 #subscribe {
-    content: "";
-    color: white;
-    background-image: url("../assets/images/subscribe-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 0.9;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    width: 100%;
+  content: "";
+  color: white;
+  background-image: url("../assets/images/subscribe-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.9;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
 }
 #position {
-    padding: 10px;
-    width: 100vw;
+  padding: 10px;
+  width: 100vw;
 }
 
-.centrale{
-    font-size: 1em;
-    padding: 150px 0px;
-    text-align: center;
+.centrale {
+  font-size: 1em;
+  padding: 150px 0px;
+  text-align: center;
 }
 .form {
-    display: flex;
-    flex-direction: row;
-    margin-left: 25vw;
-    width: 50vw;
-    padding-top: 30px;
-  }
-  .input{
-    border:none;
-    font-size: 1em;
-  }
-  .input2{
-    width: 200px;
-    background-color:#7EC3BB;
-    border: none;
-    text-align: center;
-    color: white;
-  }
+  display: flex;
+  flex-direction: row;
+  margin-left: 25vw;
+  width: 50vw;
+  padding-top: 30px;
+}
+.input {
+  border: none;
+  font-size: 1em;
+}
+.input2 {
+  width: 200px;
+  background-color: #7ec3bb;
+  border: none;
+  text-align: center;
+  color: white;
+}
 /*fine CSS di Antonino*/
 
 /*CSS Luigi Crisci*/
 body {
-    width: 100%;
-    margin: 0;
-  }
-  
+  width: 100%;
+  margin: 0;
+}
+
 #about-us {
   background-color: #f6f6f6;
   padding: 100px 0px;
@@ -262,11 +262,13 @@ body {
   display: flex;
   width: 50%;
   background-color: white;
+  overflow: hidden;
 }
 
 .actual-dish-image {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 #fourth-image {
@@ -294,16 +296,25 @@ body {
 }
 
 .dish-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: white;
   float: right;
   width: 50%;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
   margin: 0;
 }
 
 .dish-image-div {
   width: 50%;
+  overflow: hidden;
+}
+
+.actual-dish-image:hover {
+  scale: 1.2;
+  rotate: 15deg;
 }
 
 .dish-image-4-div {
@@ -329,8 +340,6 @@ body {
 
 /*Fine CSS Luigi Crisci*/
 
-
-
 /* css luigi I */
 *,
 *::before,
@@ -338,12 +347,13 @@ body {
   box-sizing: border-box;
 }
 
-html, body {
-	height: 100%;
+html,
+body {
+  height: 100%;
   margin: 0;
 }
 #container {
-	min-height: 100%;
+  min-height: 100%;
 }
 
 a:link,
@@ -358,13 +368,13 @@ header {
 }
 
 #sfondo-navbar {
-    background-image: url(../images/header.jpg);
-    height: 500px;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 2em;
-    margin-top: -90px;
+  background-image: url(../images/header.jpg);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2em;
+  margin-top: -90px;
 }
 
 .img-overlay {
@@ -388,11 +398,11 @@ header {
 }
 
 #menu-lista ul {
-    display: flex;
-    column-gap: 2em;
-    list-style: none;
-    padding-top: 1.5em;
-    text-transform: uppercase;
+  display: flex;
+  column-gap: 2em;
+  list-style: none;
+  padding-top: 1.5em;
+  text-transform: uppercase;
 }
 
 #featured-works {
@@ -407,14 +417,12 @@ header {
 }
 
 #featured-works span {
-     color: orangered;
+  color: orangered;
 }
 
 #carosello-bootstrap {
   width: 100%;
 }
-
-
 
 /* #immagini-scorrevoli {
     display: flex;
@@ -422,8 +430,8 @@ header {
 }  ^^questa regola l'ho commentata perchè inutile con bootstrap*/
 
 .immagini-scorrevoli {
-    width: 219px;
-    margin-right: 1em;
+  width: 219px;
+  margin-right: 1em;
 }
 
 /* animazioni */
@@ -551,12 +559,70 @@ i {
 }
 
 address {
-    color: #959595;
-    font-size: 0.8em;
+  color: #959595;
+  font-size: 0.8em;
 }
 
 hr {
   width: 100px;
   color: gray;
   border-style: inset;
+}
+
+/*MEDIA QUERY Luigi Crisci*/
+
+@media screen and (max-width: 1100px) {
+  .actual-dish-image {
+    height: 80%;
+  }
+
+  #fourth-image {
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  #recipe-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single-dishes {
+    width: 100%;
+  }
+
+  .actual-dish-image {
+    height: 100%;
+  }
+
+  #fourth-image {
+    height: 100%;
+  }
+
+  .button {
+    margin-top: 30px;
+    margin-right: 33%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .single-dishes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dish-image-div,
+  .dish-image-4-div {
+    width: 100%;
+  }
+
+  .dish-description {
+    width: 100%;
+    height: 200px;
+  }
+
+  .button {
+    float: left;
+  }
 }
