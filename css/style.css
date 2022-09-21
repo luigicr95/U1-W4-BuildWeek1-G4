@@ -41,19 +41,29 @@ body p {
     font-size: 16px;
 }
 
-main {
-    overflow-x: hidden;
+main{
+  overflow-x: hidden;
 }
+
 
 .p {
-    text-align: center;
-    color: #959595;
-    font-size: 0.8em;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  text-align: center;
+  color: #959595;
+  font-size: 12.7px;
+  line-height: 2em;
 }
-
+.p2{
+  text-align: left;
+  color: #959595;
+  font-size: 12.5px;
+}
 /* section menu-2 (Antonino)*/
 #menu-2 {
-    padding: 60px 0px;
+  padding: 60px 0px;
+  display: block;
+  text-align: center;
 }
 #title-menu2 {
     padding-bottom: 30px;
@@ -62,41 +72,48 @@ main {
     font-size: 2em;
 }
 .span {
-    color: orangered;
+  color: #FF530A;
 }
 .hr {
-    width: 10vw;
-    margin-bottom: 40px;
-    color: grey;
+  width: 10vw;
+  margin-bottom: 70vh;
+  color: grey;
+  margin: 0 auto;
 }
 /*Section-price (Antonino)*/
 .ul {
     list-style: none;
 }
 #section-price {
-    padding-top: 10vh;
-    padding-left: 5px;
     text-align: left;
-    padding-right: 3vw;
-    padding-bottom: 20vh;
+    margin-right: 20vw;
+    margin-left: 17vw;
+    margin-bottom: 10vh;
 }
 .span2 {
-    float: right;
+  float: right;
+  color: #938463;
+  font-size: 14px;
 }
 
 .h2 {
-    display: inline-block;
-    position: relative;
-    font-size: 1.5em;
+  display: inline-block;
+  position: relative;
+  font-size: 1.3em;
 }
-.h3 {
-    font-size: 1.5em;
+.h3{
+    font-size: 1.2em;
     margin-left: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+}
+.hr2{
+  background-color: white;
+  display: inline-block;
 }
 .sottotitolo {
     position: relative;
-    margin-right: 20vw;
+    margin-bottom: 50px;
+    
 }
 .text-right {
     text-align: right;
@@ -105,50 +122,50 @@ main {
 #border-bottom {
     position: absolute;
     top:0px;
-    width: 50vw;
+    width: 53vw;
     border: 1px dotted #c9c9c9;
     margin-top: 20px;
-    margin-left: 155px;
+    margin-left: 160px;
 }
 #border-bottom2 {
     position: absolute;
-    top: 20px;
-    width: 44.5vw;
+    top: 0px;
+    width: 48vw;
     border: 1px dotted #c9c9c9;
     margin-top: 20px;
-    margin-left: 278px;
+    margin-left: 255px;
 }
 #border-bottom3 {
     position: absolute;
-    top: 20px;
-    width: 44.5vw;
+    top: 0px;
+    width: 48.3vw;
     border: 1px dotted #c9c9c9;
     margin-top: 20px;
-    margin-left: 275px;
+    margin-left: 250px;
 }
 #border-bottom4 {
     position: absolute;
-    top: 20px;
-    width: 50vw;
+    top: 0px;
+    width: 53vw;
     border: 1px dotted #c9c9c9;
     margin-top: 20px;
-    margin-left: 170px;
+    margin-left: 160px;
 }
 #border-bottom5 {
     position: absolute;
-    top: 20px;
-    width: 38vw;
+    top: 0px;
+    width: 42.5vw;
     border: 1px dotted #c9c9c9;
     margin-top: 20px;
-    margin-left: 405px;
+    margin-left: 363px;
 }
 #border-bottom6 {
     position: absolute;
-    top: 20px;
-    width: 52.5vw;
+    top: 0px;
+    width: 54.9vw;
     border: 1px dotted #c9c9c9;
     margin-top: 20px;
-    margin-left: 135px;
+    margin-left: 125px;
 }
 
 #button {
@@ -183,12 +200,12 @@ main {
     width: 100vw;
 }
 
-.centrale {
-    font-size: 1em;
-    padding: 150px 0px;
+.centrale{
+    font-size: 1.3em;
+    padding: 110px 0px;
     text-align: center;
 }
-.form {
+  .form {
     display: flex;
     flex-direction: row;
     margin-left: 25vw;
@@ -206,6 +223,115 @@ main {
     text-align: center;
     color: white;
 }
+  .input{
+    border:none;
+    font-size: 0.8em;
+    outline-style: none;
+    
+  }
+  .input2{
+    width: 150px;
+    background-color:#7EC3BB;
+    border: none;
+    text-align: center;
+    color: white;
+    outline-style: none;
+  }
+  /* Inizio media queries Antonino*/
+  @media screen and (max-width: 1200px){
+    #section-price{
+      text-align: left;
+      margin-right: 4vw;
+      margin-left: 0vw;
+    }
+    #border-bottom{
+      width: 80.1vw;
+    }
+    #border-bottom2{
+      width: 72.2vw;
+    }#border-bottom3{
+      width: 72.7vw;
+    }#border-bottom4{
+      width: 80.2vw;
+    }#border-bottom5{
+      width: 63.3vw;
+    }#border-bottom6{
+      width: 83.3vw;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    #section-price{
+      text-align: left;
+      margin-right: 4vw;
+      margin-left: 0vw;
+    }
+    #border-bottom{
+      width: 77.1vw;
+    }
+    #border-bottom2{
+      width: 68.1vw;
+    }#border-bottom3{
+      width: 68.5vw;
+    }#border-bottom4{
+      width: 77.2vw;
+    }#border-bottom5{
+      width: 57.5vw;
+    }#border-bottom6{
+      width: 80.8vw;
+    }
+  }
+  @media screen and (max-width: 768px){
+    #section-price{
+      text-align: left;
+      margin-right: 4vw;
+      margin-left: 0vw;
+    }#border-bottom{
+      width: 71vw;
+    }#border-bottom2{
+      width: 58.5vw;
+    }#border-bottom3{
+      width: 59.3vw;
+    }#border-bottom4{
+      width: 71vw;
+    }#border-bottom5{
+      width: 44.7vw;
+    }#border-bottom6{
+      width: 76vw;
+    }
+  }
+   @media screen and (max-width: 767px){
+    #section-price{
+      text-align: left;
+      margin-right: 4vw;
+      margin-left: 0vw;
+    }#border-bottom{
+      display:none; 
+     }#border-bottom2{
+      display:none; 
+     }#border-bottom3{
+      display:none; 
+     }#border-bottom4{
+      display:none; 
+     }#border-bottom5{
+      display:none; 
+     }#border-bottom6{
+      display:none; 
+     }.span2{
+       float:none;
+       display: block;
+       margin-bottom:15px;
+     }.form{
+      display: block;
+      margin-left: 18px;
+     }.input{
+      width: 90vw;
+     }.input2{
+      padding: 10px 0px;
+      width: 23vw;
+      margin-top: 20px;
+     }
+   }
+  /*Fine media queries Antonino*/
 /*fine CSS di Antonino*/
 
 /*CSS Luigi Crisci*/
