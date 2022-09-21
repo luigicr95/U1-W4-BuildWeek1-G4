@@ -19,333 +19,333 @@
 } */
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 body h1 {
-  font-size: 36px;
+    font-size: 36px;
 }
 body h2 {
-  font-size: 24px;
+    font-size: 24px;
 }
 body h3 {
-  font-size: 20px;
+    font-size: 20px;
 }
 body h4 {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 body p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 main {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .p {
-  text-align: center;
-  color: #959595;
-  font-size: 0.8em;
+    text-align: center;
+    color: #959595;
+    font-size: 0.8em;
 }
 
 /* section menu-2 (Antonino)*/
 #menu-2 {
-  padding: 60px 0px;
+    padding: 60px 0px;
 }
 #title-menu2 {
-  padding-bottom: 30px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 2em;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 2em;
 }
 .span {
-  color: orangered;
+    color: orangered;
 }
 .hr {
-  width: 10vw;
-  margin-bottom: 40px;
-  color: grey;
+    width: 10vw;
+    margin-bottom: 40px;
+    color: grey;
 }
 /*Section-price (Antonino)*/
 .ul {
-  list-style: none;
+    list-style: none;
 }
 #section-price {
-  padding-top: 10vh;
-  padding-left: 5px;
-  text-align: left;
-  padding-right: 3vw;
-  padding-bottom: 20vh;
+    padding-top: 10vh;
+    padding-left: 5px;
+    text-align: left;
+    padding-right: 3vw;
+    padding-bottom: 20vh;
 }
 .span2 {
-  float: right;
+    float: right;
 }
 
 .h2 {
-  display: inline-block;
-  position: relative;
-  font-size: 1.5em;
+    display: inline-block;
+    position: relative;
+    font-size: 1.5em;
 }
 .h3 {
-  font-size: 1.5em;
-  margin-left: 30px;
-  padding-bottom: 20px;
+    font-size: 1.5em;
+    margin-left: 30px;
+    padding-bottom: 20px;
 }
 .sottotitolo {
-  position: relative;
-  margin-right: 20vw;
+    position: relative;
+    margin-right: 20vw;
 }
 .text-right {
-  text-align: right;
-  padding-top: 50px;
+    text-align: right;
+    padding-top: 50px;
 }
 #border-bottom {
-  position: absolute;
-  top: 20px;
-  width: 50vw;
-  border: 1px dotted #c9c9c9;
-  margin-top: 20px;
-  margin-left: 175px;
+    position: absolute;
+    top: 20px;
+    width: 50vw;
+    border: 1px dotted #c9c9c9;
+    margin-top: 20px;
+    margin-left: 175px;
 }
 #border-bottom2 {
-  position: absolute;
-  top: 20px;
-  width: 44.5vw;
-  border: 1px dotted #c9c9c9;
-  margin-top: 20px;
-  margin-left: 278px;
+    position: absolute;
+    top: 20px;
+    width: 44.5vw;
+    border: 1px dotted #c9c9c9;
+    margin-top: 20px;
+    margin-left: 278px;
 }
 #border-bottom3 {
-  position: absolute;
-  top: 20px;
-  width: 44.5vw;
-  border: 1px dotted #c9c9c9;
-  margin-top: 20px;
-  margin-left: 275px;
+    position: absolute;
+    top: 20px;
+    width: 44.5vw;
+    border: 1px dotted #c9c9c9;
+    margin-top: 20px;
+    margin-left: 275px;
 }
 #border-bottom4 {
-  position: absolute;
-  top: 20px;
-  width: 50vw;
-  border: 1px dotted #c9c9c9;
-  margin-top: 20px;
-  margin-left: 170px;
+    position: absolute;
+    top: 20px;
+    width: 50vw;
+    border: 1px dotted #c9c9c9;
+    margin-top: 20px;
+    margin-left: 170px;
 }
 #border-bottom5 {
-  position: absolute;
-  top: 20px;
-  width: 38vw;
-  border: 1px dotted #c9c9c9;
-  margin-top: 20px;
-  margin-left: 405px;
+    position: absolute;
+    top: 20px;
+    width: 38vw;
+    border: 1px dotted #c9c9c9;
+    margin-top: 20px;
+    margin-left: 405px;
 }
 #border-bottom6 {
-  position: absolute;
-  top: 20px;
-  width: 52.5vw;
-  border: 1px dotted #c9c9c9;
-  margin-top: 20px;
-  margin-left: 135px;
+    position: absolute;
+    top: 20px;
+    width: 52.5vw;
+    border: 1px dotted #c9c9c9;
+    margin-top: 20px;
+    margin-left: 135px;
 }
 
 #button {
-  padding: 28px 105px;
-  background-color: none;
-  border: 1px solid #ff4f02;
-  color: #ff4f02;
-  text-transform: uppercase;
-  font-size: 15px;
+    padding: 28px 105px;
+    background-color: none;
+    border: 1px solid #ff4f02;
+    color: #ff4f02;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 #button:hover {
-  background-color: #ff4f02;
-  color: white;
+    background-color: #ff4f02;
+    color: white;
 }
 /*Section-subscribe (Antonino)*/
 
 #subscribe {
-  content: "";
-  color: white;
-  background-image: url("../assets/images/subscribe-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  opacity: 0.9;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  width: 100%;
+    content: "";
+    color: white;
+    background-image: url("../assets/images/subscribe-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
 }
 #position {
-  padding: 10px;
-  width: 100vw;
+    padding: 10px;
+    width: 100vw;
 }
 
 .centrale {
-  font-size: 1em;
-  padding: 150px 0px;
-  text-align: center;
+    font-size: 1em;
+    padding: 150px 0px;
+    text-align: center;
 }
 .form {
-  display: flex;
-  flex-direction: row;
-  margin-left: 25vw;
-  width: 50vw;
-  padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 25vw;
+    width: 50vw;
+    padding-top: 30px;
 }
 .input {
-  border: none;
-  font-size: 1em;
+    border: none;
+    font-size: 1em;
 }
 .input2 {
-  width: 200px;
-  background-color: #7ec3bb;
-  border: none;
-  text-align: center;
-  color: white;
+    width: 200px;
+    background-color: #7ec3bb;
+    border: none;
+    text-align: center;
+    color: white;
 }
 /*fine CSS di Antonino*/
 
 /*CSS Luigi Crisci*/
 body {
-  width: 100%;
-  margin: 0;
+    width: 100%;
+    margin: 0;
 }
 
 #about-us {
-  background-color: #f6f6f6;
-  padding: 100px 0px;
-  margin-top: 50px;
+    background-color: #f6f6f6;
+    padding: 100px 0px;
+    margin-top: 50px;
 }
 
 #introduction {
-  margin-left: 10%;
-  margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #image-and-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 #chef-image {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 #grey-text {
-  color: #959595;
+    color: #959595;
 }
 
 .orange-text {
-  color: #ff530a;
+    color: #ff530a;
 }
 
 #blog-images {
-  padding: 100px 0px;
-  background-image: url(../images/blog/blog-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+    padding: 100px 0px;
+    background-image: url(../images/blog/blog-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #from-the-blog {
-  margin-left: 10%;
-  margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #blog-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #blog-h2 {
-  text-align: center;
-  color: white;
-  margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
 }
 
 #blog-hr {
-  color: white;
-  margin-bottom: 50px;
+    color: white;
+    margin-bottom: 50px;
 }
 
 .single-dishes {
-  display: flex;
-  width: 50%;
-  background-color: white;
+    display: flex;
+    width: 50%;
+    background-color: white;
 }
 
 .actual-dish-image {
-  width: 100%;
-  height: 100%;
-  transition: 0.4s;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
 }
 
 #fourth-image {
-  height: 100%;
-  width: 100%;
-  transition: 0.4s;
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
 }
 
 #recipe-item {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .dish-description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  float: right;
-  width: 50%;
-  text-align: center;
-  padding: 40px;
-  margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
 }
 
 .dish-image-div {
-  width: 50%;
-  overflow: hidden;
+    width: 50%;
+    overflow: hidden;
 }
 
 .actual-dish-image:hover {
-  scale: 1.4;
-  rotate: 15deg;
+    scale: 1.4;
+    rotate: 15deg;
 }
 
 .dish-image-4-div {
-  width: 50%;
-  overflow: hidden;
+    width: 50%;
+    overflow: hidden;
 }
 
 #fourth-image:hover {
-  scale: 1.4;
-  rotate: 15deg;
+    scale: 1.4;
+    rotate: 15deg;
 }
 
 .button-grid {
-  background: #ff530a;
-  padding: 30px 100px;
-  margin-top: -15px;
-  text-transform: uppercase;
-  float: right;
-  border: 1px;
-  text-decoration: none;
-  transition: 0.5s;
+    background: #ff530a;
+    padding: 30px 100px;
+    margin-top: -15px;
+    text-transform: uppercase;
+    float: right;
+    border: 1px;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
 .button-grid:hover {
-  background-color: transparent;
-  border-color: #ff4f02;
-  border-style: solid;
-  color: #ff4f02;
+    background-color: transparent;
+    border-color: #ff4f02;
+    border-style: solid;
+    color: #ff4f02;
 }
 
 /*Fine CSS Luigi Crisci*/
@@ -354,84 +354,84 @@ body {
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
-  height: 100%;
-  margin: 0;
+    height: 100%;
+    margin: 0;
 }
 #container {
-  min-height: 100%;
+    min-height: 100%;
 }
 
 a:link,
 a:visited,
 a:active {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 header {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 #sfondo-navbar {
-  background-image: url(../images/header.jpg);
-  height: 500px;
-  background-size: cover;
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 2em;
-  margin-top: -90px;
+    background-image: url(../images/header.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2em;
+    margin-top: -90px;
 }
 
 .img-overlay {
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.164);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.164);
 }
 
 #contenitore-navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
-  margin: 0 auto;
-  width: 80%;
-  height: 5.5em;
-  opacity: 0.9;
-  position: sticky;
-  top: 0px;
-  z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    height: 5.5em;
+    opacity: 0.9;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 #menu-lista ul {
-  display: flex;
-  column-gap: 2em;
-  list-style: none;
-  padding-top: 1.5em;
-  text-transform: uppercase;
+    display: flex;
+    column-gap: 2em;
+    list-style: none;
+    padding-top: 1.5em;
+    text-transform: uppercase;
 }
 
 #featured-works {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
 }
 
 #featured-works i {
-  position: absolute;
-  right: 0px;
+    position: absolute;
+    right: 0px;
 }
 
 #featured-works span {
-  color: orangered;
+    color: orangered;
 }
 
 #carosello-bootstrap {
-  width: 100%;
+    width: 100%;
 }
 
 /* #immagini-scorrevoli {
@@ -440,202 +440,202 @@ header {
 }  ^^questa regola l'ho commentata perchè inutile con bootstrap*/
 
 .immagini-scorrevoli {
-  width: 219px;
-  margin-right: 1em;
+    width: 219px;
+    margin-right: 1em;
 }
 
 /* animazioni */
 .sottolineatura-menu-navbar {
-  display: inline-block;
-  position: relative;
-  padding-bottom: 0.5em;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 0.5em;
 }
 
 .sottolineatura-menu-navbar::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  background-color: orangered;
-  transition: width 0.25s ease-out;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: orangered;
+    transition: width 0.25s ease-out;
 }
 
 .sottolineatura-menu-navbar:hover::before {
-  width: 100%;
+    width: 100%;
 }
 
 /* fine css di luigi i */
 
 .orange {
-  color: orangered;
+    color: orangered;
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 95%;
 }
 input,
 textarea {
-  width: 100%;
-  display: block;
-  line-height: 3rem;
-  margin-block: 0.5rem;
-  padding-left: 15px;
-  outline-color: rgba(188, 188, 188, 0.599);
-  outline-style: solid;
-  border: 0px, solid;
-  box-shadow: none;
+    width: 100%;
+    display: block;
+    line-height: 3rem;
+    margin-block: 0.5rem;
+    padding-left: 15px;
+    outline-color: rgba(188, 188, 188, 0.599);
+    outline-style: solid;
+    border: 0px, solid;
+    box-shadow: none;
 }
 
 button {
-  align-self: flex-end;
-  width: 50%;
-  float: right;
-  margin: 0%;
-  line-height: 3rem;
-  color: white;
-  background-color: orangered;
-  border: 0ch;
+    align-self: flex-end;
+    width: 50%;
+    float: right;
+    margin: 0%;
+    line-height: 3rem;
+    color: white;
+    background-color: orangered;
+    border: 0ch;
 }
 
 #info {
-  margin-top: 100px;
-  display: flex;
-  flex-direction: row;
-  width: 95%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
 }
 
 .footer-cal {
-  display: flex;
-  flex-direction: column;
-  width: 33%;
-  padding-inline: 2%;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding-inline: 2%;
+    align-items: center;
 }
 
 #copyright {
-  background-color: #e9e9e9;
-  line-height: 4rem;
-  margin-bottom: 0%;
-  width: 100%;
-  text-align: center;
+    background-color: #e9e9e9;
+    line-height: 4rem;
+    margin-bottom: 0%;
+    width: 100%;
+    text-align: center;
 }
 
 footer {
-  margin-bottom: 0%;
-  padding: 0%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    margin-bottom: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 i {
-  color: gray;
+    color: gray;
 }
 
 #social-pages I {
-  font-size: 2rem;
-  margin-right: 20px;
+    font-size: 2rem;
+    margin-right: 20px;
 }
 
 #photo-windows {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .picture {
-  width: 50px;
-  height: 50px;
-  background-color: antiquewhite;
-  margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: antiquewhite;
+    margin-right: 15px;
 }
 
 address {
-  color: #959595;
-  font-size: 0.8em;
+    color: #959595;
+    font-size: 0.8em;
 }
 
 hr {
-  width: 100px;
-  color: gray;
-  border-style: inset;
+    width: 100px;
+    color: gray;
+    border-style: inset;
 }
 
 /*MEDIA QUERY Luigi Crisci*/
 
 @media screen and (max-width: 1100px) {
-  /*.actual-dish-image {
+    /*.actual-dish-image {
     height: 80%;
   }*/
-  .dish-image-div {
-    height: 80%;
-  }
+    .dish-image-div {
+        height: 80%;
+    }
 
-  .dish-image-4-div {
-    height: 80%;
-  }
+    .dish-image-4-div {
+        height: 80%;
+    }
 }
 
 @media screen and (max-width: 1020px) {
-  #recipe-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+    #recipe-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .single-dishes {
-    width: 100%;
-  }
+    .single-dishes {
+        width: 100%;
+    }
 
-  .actual-dish-image {
-    height: 100%;
-  }
+    .actual-dish-image {
+        height: 100%;
+    }
 
-  #fourth-image {
-    height: 100%;
-  }
+    #fourth-image {
+        height: 100%;
+    }
 
-  .button-grid {
-    margin-top: 30px;
-    margin-right: 33%;
-  }
+    .button-grid {
+        margin-top: 30px;
+        margin-right: 33%;
+    }
 }
 
 @media screen and (max-width: 830px) {
-  .single-dishes {
-    display: flex;
-    flex-direction: column;
-  }
+    .single-dishes {
+        display: flex;
+        flex-direction: column;
+    }
 
-  .dish-image-div,
-  .dish-image-4-div {
-    width: 100%;
-  }
+    .dish-image-div,
+    .dish-image-4-div {
+        width: 100%;
+    }
 
-  .dish-description {
-    width: 100%;
-    height: 200px;
-  }
+    .dish-description {
+        width: 100%;
+        height: 200px;
+    }
 
-  .button-grid {
-    float: left;
-  }
+    .button-grid {
+        float: left;
+    }
 }
