@@ -468,6 +468,7 @@ flex-direction: column;
   }
   .menu-lista.active{
     display: flex;
+    background-color: white;
   }
 }
 /* ^^media query navbar */
