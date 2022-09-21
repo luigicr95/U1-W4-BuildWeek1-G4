@@ -214,6 +214,10 @@ body {
     margin: 0;
 }
 
+main {
+    overflow-x: hidden; /* ^^rimuove lo scroll laterale */
+}
+
 #about-us {
     background-color: #f6f6f6;
     padding: 100px 0px;
@@ -271,6 +275,8 @@ body {
 #blog-hr {
     color: white;
     margin-bottom: 50px;
+    text-align: center;
+    color: white;
 }
 
 .single-dishes {
@@ -302,16 +308,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.dish-description {
     background-color: white;
     float: right;
     width: 50%;
     text-align: center;
+
     padding: 40px;
+
+    padding: 20px;
+
     margin: 0;
 }
 
 .dish-image-div {
     width: 50%;
+
     overflow: hidden;
 }
 
@@ -468,6 +482,7 @@ header {
 
 /* fine css di luigi i */
 
+/* start css by Aras */
 .orange {
     color: orangered;
 }
@@ -493,10 +508,14 @@ textarea {
     line-height: 3rem;
     margin-block: 0.5rem;
     padding-left: 15px;
-    outline-color: rgba(188, 188, 188, 0.599);
-    outline-style: solid;
     border: 0px, solid;
     box-shadow: none;
+    color: rgba(0, 0, 0, 0.733);
+    border: 1px solid #ccc;
+}
+
+h1 span {
+    font-size: 45px;
 }
 
 button {
@@ -517,12 +536,24 @@ button {
     width: 95%;
 }
 
+.sort-left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
 .footer-cal {
     display: flex;
     flex-direction: column;
     width: 33%;
     padding-inline: 2%;
     align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer h3 {
+    margin-bottom: 3rem;
 }
 
 #copyright {
@@ -531,6 +562,14 @@ button {
     margin-bottom: 0%;
     width: 100%;
     text-align: center;
+    margin-top: 30px;
+}
+#copyright p {
+    font-size: 12px;
+}
+
+#copyright a {
+    color: orangered;
 }
 
 footer {
@@ -540,6 +579,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: rgba(0, 0, 0, 0.733);
 }
 
 a {
@@ -549,10 +589,30 @@ a {
 i {
     color: gray;
 }
+footer a:link {
+    color: orangered;
+}
+footer a {
+    font-size: 20px;
+}
+footer p {
+    font-size: 14px;
+}
+
+#social-pages i {
+    color: #00000049;
+}
 
 #social-pages I {
     font-size: 2rem;
     margin-right: 20px;
+}
+
+#photo-and-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 #photo-windows {
@@ -562,80 +622,78 @@ i {
 }
 
 .picture {
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     background-color: antiquewhite;
     margin-right: 15px;
 }
 
 address {
-    color: #959595;
-    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.733);
 }
 
 hr {
     width: 100px;
-    color: gray;
+    color: rgba(0, 0, 0, 0.597);
     border-style: inset;
 }
 
-/*MEDIA QUERY Luigi Crisci*/
+/* media queries footer */
 
-@media screen and (max-width: 1100px) {
-    /*.actual-dish-image {
-    height: 80%;
-  }*/
-    .dish-image-div {
-        height: 80%;
-    }
-
-    .dish-image-4-div {
-        height: 80%;
-    }
-}
-
-@media screen and (max-width: 1020px) {
-    #recipe-item {
-        display: flex;
+@media only screen and (max-width: 991px) {
+    #info {
         flex-direction: column;
+        width: 75%;
+    }
+    .footer-cal {
+        width: 100%;
+        justify-content: center;
+    }
+    #info-details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sort-left {
+        width: inherit;
+    }
+
+    form {
         align-items: center;
+        width: 75%;
+    }
+    #form-btn {
+        align-self: center;
+    }
+    form h3 {
+        align-self: baseline;
     }
 
-    .single-dishes {
-        width: 100%;
+    #photo-and-social > * {
+        margin-top: 5%;
     }
 
-    .actual-dish-image {
-        height: 100%;
-    }
-
-    #fourth-image {
-        height: 100%;
-    }
-
-    .button-grid {
-        margin-top: 30px;
-        margin-right: 33%;
+    #social-pages h3 {
+        margin-bottom: 10%;
     }
 }
+@media only screen and (max-width: 768px) {
+    #info {
+        width: 95%;
+    }
 
-@media screen and (max-width: 830px) {
-    .single-dishes {
-        display: flex;
+    #info-details {
         flex-direction: column;
+        justify-content: space-between;
     }
 
-    .dish-image-div,
-    .dish-image-4-div {
+    form {
+        width: 90%;
+    }
+    #form-btn {
         width: 100%;
+        margin-top: 1rem;
     }
-
-    .dish-description {
-        width: 100%;
-        height: 200px;
-    }
-
-    .button-grid {
-        float: left;
-    }
+}
+@media only screen and (max-width: 480px) {
 }
