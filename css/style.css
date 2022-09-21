@@ -43,6 +43,7 @@ h4 {
 .hr {
   width: 10vw;
   margin-bottom: 40px;
+  color: grey;
 }
 /*Section-price (Antonino)*/
 .ul{
@@ -171,7 +172,15 @@ h4 {
     padding-top: 30px;
   }
   .input{
+    border:none;
+    font-size: 1em;
+  }
+  .input2{
     width: 200px;
+    background-color:#7EC3BB;
+    border: none;
+    text-align: center;
+    color: white;
   }
 /*fine CSS di Antonino*/
 
