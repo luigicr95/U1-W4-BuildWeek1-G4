@@ -326,7 +326,7 @@ body {
 }
 
 #fourth-image:hover {
-  scale: 1.2;
+  scale: 1.4;
   rotate: 15deg;
 }
 
@@ -582,11 +582,14 @@ hr {
 /*MEDIA QUERY Luigi Crisci*/
 
 @media screen and (max-width: 1100px) {
-  .actual-dish-image {
+  /*.actual-dish-image {
+    height: 80%;
+  }*/
+  .dish-image-div {
     height: 80%;
   }
 
-  #fourth-image {
+  .dish-image-4-div {
     height: 80%;
   }
 }
@@ -616,7 +619,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 830px) {
   .single-dishes {
     display: flex;
     flex-direction: column;
