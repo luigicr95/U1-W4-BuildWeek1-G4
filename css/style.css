@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "fontawesome-webfont";
     src: url(../fonts/fontawesome-webfont.woff) format("woff");
 }
@@ -12,14 +12,38 @@
     font-family: "FontAwesome";
     src: url(../fonts/FontAwesome.otf) format("otf");
 }
-h1,
-h2,
-h3,
-h4 {
-    font-family: "FontAwesome";
-    font-weight: 600;
-    letter-spacing: 0.2rem;
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url(../fonts/fontawesome-webfont.eot) format("otf");
+} */
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
+
+body h1{
+  font-size: 36px;
+}
+body h2{
+font-size: 24px;
+}
+body h3{
+font-size: 20px;
+}
+body h4{
+font-size: 18px;
+}
+
+body p {
+  font-size: 16px;
+}
+
+
+
 
 .p {
     text-align: center;
@@ -314,6 +338,14 @@ body {
   box-sizing: border-box;
 }
 
+html, body {
+	height: 100%;
+  margin: 0;
+}
+#container {
+	min-height: 100%;
+}
+
 a:link,
 a:visited,
 a:active {
@@ -323,7 +355,6 @@ a:active {
 
 header {
   text-transform: uppercase;
-  margin: -10px;
 }
 
 #sfondo-navbar {
@@ -335,6 +366,13 @@ header {
     margin-bottom: 2em;
     margin-top: -90px;
 }
+
+.img-overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.164);
+}
+
 #contenitore-navbar {
   display: flex;
   justify-content: space-around;
@@ -372,13 +410,19 @@ header {
      color: orangered;
 }
 
+#carosello-bootstrap {
+  width: 100%;
+}
+
+
+
 /* #immagini-scorrevoli {
     display: flex;
     justify-content: space-around;
 }  ^^questa regola l'ho commentata perchè inutile con bootstrap*/
 
 .immagini-scorrevoli {
-    width: 230px;
+    width: 219px;
     margin-right: 1em;
 }
 
