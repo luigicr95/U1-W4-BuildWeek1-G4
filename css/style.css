@@ -18,32 +18,28 @@
   src: url(../fonts/fontawesome-webfont.eot) format("otf");
 } */
 
-
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
-body h1{
-  font-size: 36px;
+body h1 {
+    font-size: 36px;
 }
-body h2{
-font-size: 24px;
+body h2 {
+    font-size: 24px;
 }
-body h3{
-font-size: 20px;
+body h3 {
+    font-size: 20px;
 }
-body h4{
-font-size: 18px;
+body h4 {
+    font-size: 18px;
 }
 
 body p {
-  font-size: 16px;
+    font-size: 16px;
 }
-
-
-
 
 .p {
     text-align: center;
@@ -53,24 +49,24 @@ body p {
 
 /* section menu-2 (Antonino)*/
 #menu-2 {
-  padding: 60px 0px;
+    padding: 60px 0px;
 }
 #title-menu2 {
-  padding-bottom: 30px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 2em;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 2em;
 }
 .span {
-  color: orangered;
+    color: orangered;
 }
 .hr {
-  width: 10vw;
-  margin-bottom: 40px;
-  color: grey;
+    width: 10vw;
+    margin-bottom: 40px;
+    color: grey;
 }
 /*Section-price (Antonino)*/
-.ul{
+.ul {
     list-style: none;
 }
 #section-price {
@@ -81,15 +77,15 @@ body p {
     padding-bottom: 20vh;
 }
 .span2 {
-  float: right;
+    float: right;
 }
 
 .h2 {
-  display: inline-block;
-  position: relative;
-  font-size: 1.5em;
+    display: inline-block;
+    position: relative;
+    font-size: 1.5em;
 }
-.h3{
+.h3 {
     font-size: 1.5em;
     margin-left: 30px;
     padding-bottom: 20px;
@@ -152,16 +148,16 @@ body p {
 }
 
 #button {
-  padding: 28px 105px;
-  background-color: none;
-  border: 1px solid #ff4f02;
-  color: #ff4f02;
-  text-transform: uppercase;
-  font-size: 15px;
+    padding: 28px 105px;
+    background-color: none;
+    border: 1px solid #ff4f02;
+    color: #ff4f02;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 #button:hover {
-  background-color: #ff4f02;
-  color: white;
+    background-color: #ff4f02;
+    color: white;
 }
 /*Section-subscribe (Antonino)*/
 
@@ -183,7 +179,7 @@ body p {
     width: 100vw;
 }
 
-.centrale{
+.centrale {
     font-size: 1em;
     padding: 150px 0px;
     text-align: center;
@@ -194,84 +190,88 @@ body p {
     margin-left: 25vw;
     width: 50vw;
     padding-top: 30px;
-  }
-  .input{
-    border:none;
+}
+.input {
+    border: none;
     font-size: 1em;
-  }
-  .input2{
+}
+.input2 {
     width: 200px;
-    background-color:#7EC3BB;
+    background-color: #7ec3bb;
     border: none;
     text-align: center;
     color: white;
-  }
+}
 /*fine CSS di Antonino*/
 
 /*CSS Luigi Crisci*/
 body {
     width: 100%;
     margin: 0;
-  }
-  
+}
+
+main {
+    overflow-x: hidden; /* ^^rimuove lo scroll laterale */
+}
+
 #about-us {
-  background-color: #f6f6f6;
-  padding: 100px 0px;
-  margin-top: 50px;
+    background-color: #f6f6f6;
+    padding: 100px 0px;
+    margin-top: 50px;
 }
 
 #introduction {
-  margin-left: 10%;
-  margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #image-and-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 #grey-text {
-  color: #959595;
+    color: #959595;
 }
 
 .orange-text {
-  color: #ff530a;
+    color: #ff530a;
 }
 
 #blog-images {
-  padding: 100px 0px;
-  background-image: url(../images/blog/blog-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+    padding: 100px 0px;
+    background-image: url(../images/blog/blog-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #from-the-blog {
-  margin-left: 10%;
-  margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #blog-title {
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 }
 
 .single-dishes {
-  display: flex;
-  width: 50%;
-  background-color: white;
+    display: flex;
+    width: 50%;
+    background-color: white;
 }
 
 .actual-dish-image {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 #fourth-image {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 /*.grid-item-1 {
@@ -285,76 +285,75 @@ body {
 }*/
 
 #recipe-item {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  /*display: grid;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /*display: grid;
   gap: 0;*/
 }
 
 .dish-description {
-  background-color: white;
-  float: right;
-  width: 50%;
-  text-align: center;
-  padding: 20px;
-  margin: 0;
+    background-color: white;
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
 }
 
 .dish-image-div {
-  width: 50%;
+    width: 50%;
 }
 
 .dish-image-4-div {
-  width: 50%;
+    width: 50%;
 }
 
 .button {
-  background: #ff530a;
-  color: white;
-  padding: 30px 100px;
-  margin-top: -20px;
-  text-transform: uppercase;
-  float: right;
-  text-decoration: none;
-  border: 1px;
+    background: #ff530a;
+    color: white;
+    padding: 30px 100px;
+    margin-top: -20px;
+    text-transform: uppercase;
+    float: right;
+    text-decoration: none;
+    border: 1px;
 }
 
 .dish-image:hover {
-  scale: 1.1;
-  rotate: 10deg;
-  overflow: hidden;
+    scale: 1.1;
+    rotate: 10deg;
+    overflow: hidden;
 }
 
 /*Fine CSS Luigi Crisci*/
-
-
 
 /* css luigi I */
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-html, body {
-	height: 100%;
-  margin: 0;
+html,
+body {
+    height: 100%;
+    margin: 0;
 }
 #container {
-	min-height: 100%;
+    min-height: 100%;
 }
 
 a:link,
 a:visited,
 a:active {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 header {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 #sfondo-navbar {
@@ -368,23 +367,23 @@ header {
 }
 
 .img-overlay {
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.164);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.164);
 }
 
 #contenitore-navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
-  margin: 0 auto;
-  width: 80%;
-  height: 5.5em;
-  opacity: 0.9;
-  position: sticky;
-  top: 0px;
-  z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    height: 5.5em;
+    opacity: 0.9;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 #menu-lista ul {
@@ -396,25 +395,23 @@ header {
 }
 
 #featured-works {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
 }
 
 #featured-works i {
-  position: absolute;
-  right: 0px;
+    position: absolute;
+    right: 0px;
 }
 
 #featured-works span {
-     color: orangered;
+    color: orangered;
 }
 
 #carosello-bootstrap {
-  width: 100%;
+    width: 100%;
 }
-
-
 
 /* #immagini-scorrevoli {
     display: flex;
@@ -428,135 +425,237 @@ header {
 
 /* animazioni */
 .sottolineatura-menu-navbar {
-  display: inline-block;
-  position: relative;
-  padding-bottom: 0.5em;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 0.5em;
 }
 
 .sottolineatura-menu-navbar::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  background-color: orangered;
-  transition: width 0.25s ease-out;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: orangered;
+    transition: width 0.25s ease-out;
 }
 
 .sottolineatura-menu-navbar:hover::before {
-  width: 100%;
+    width: 100%;
 }
 
 /* fine css di luigi i */
 
+/* start css by Aras */
 .orange {
-  color: orangered;
+    color: orangered;
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 95%;
 }
 input,
 textarea {
-  width: 100%;
-  display: block;
-  line-height: 3rem;
-  margin-block: 0.5rem;
-  padding-left: 15px;
-  outline-color: rgba(188, 188, 188, 0.599);
-  outline-style: solid;
-  border: 0px, solid;
-  box-shadow: none;
+    width: 100%;
+    display: block;
+    line-height: 3rem;
+    margin-block: 0.5rem;
+    padding-left: 15px;
+    border: 0px, solid;
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.733);
+    border: 1px solid #ccc;
+}
+
+h1 span {
+    font-size: 45px;
 }
 
 button {
-  align-self: flex-end;
-  width: 50%;
-  float: right;
-  margin: 0%;
-  line-height: 3rem;
-  color: white;
-  background-color: orangered;
-  border: 0ch;
+    align-self: flex-end;
+    width: 50%;
+    float: right;
+    margin: 0%;
+    line-height: 3rem;
+    color: white;
+    background-color: orangered;
+    border: 0ch;
 }
 
 #info {
-  margin-top: 100px;
-  display: flex;
-  flex-direction: row;
-  width: 95%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+
+.sort-left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
 .footer-cal {
-  display: flex;
-  flex-direction: column;
-  width: 33%;
-  padding-inline: 2%;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding-inline: 2%;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer h3 {
+    margin-bottom: 3rem;
 }
 
 #copyright {
-  background-color: #e9e9e9;
-  line-height: 4rem;
-  margin-bottom: 0%;
-  width: 100%;
-  text-align: center;
+    background-color: #e9e9e9;
+    line-height: 4rem;
+    margin-bottom: 0%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+#copyright p {
+    font-size: 12px;
+}
+
+#copyright a {
+    color: orangered;
 }
 
 footer {
-  margin-bottom: 0%;
-  padding: 0%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    margin-bottom: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.733);
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-i {
-  color: gray;
+footer a:link {
+    color: orangered;
+}
+footer a {
+    font-size: 20px;
+}
+footer p {
+    font-size: 14px;
+}
+
+#social-pages i {
+    color: #00000049;
 }
 
 #social-pages I {
-  font-size: 2rem;
-  margin-right: 20px;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+#photo-and-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 #photo-windows {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .picture {
-  width: 50px;
-  height: 50px;
-  background-color: antiquewhite;
-  margin-right: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    margin-right: 15px;
 }
 
 address {
-    color: #959595;
-    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.733);
 }
 
 hr {
-  width: 100px;
-  color: gray;
-  border-style: inset;
+    width: 100px;
+    color: rgba(0, 0, 0, 0.597);
+    border-style: inset;
+}
+
+/* media queries footer */
+
+@media only screen and (max-width: 991px) {
+    #info {
+        flex-direction: column;
+        width: 75%;
+    }
+    .footer-cal {
+        width: 100%;
+        justify-content: center;
+    }
+    #info-details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sort-left {
+        width: inherit;
+    }
+
+    form {
+        align-items: center;
+        width: 75%;
+    }
+    #form-btn {
+        align-self: center;
+    }
+    form h3 {
+        align-self: baseline;
+    }
+
+    #photo-and-social > * {
+        margin-top: 5%;
+    }
+
+    #social-pages h3 {
+        margin-bottom: 10%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #info {
+        width: 95%;
+    }
+
+    #info-details {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    form {
+        width: 90%;
+    }
+    #form-btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width: 480px) {
 }
