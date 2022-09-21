@@ -42,6 +42,11 @@ body p {
   font-size: 16px;
 }
 
+main {
+  overflow-x: hidden;
+  /* ^^rimuove lo scroll laterale */
+}
+
 
 
 
@@ -359,12 +364,11 @@ header {
 
 #sfondo-navbar {
     background-image: url(../images/header.jpg);
-    height: 500px;
+   max-width: 100%;
     background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
     margin-top: -90px;
+    background-position: center;
 }
 
 .img-overlay {
@@ -375,8 +379,9 @@ header {
 
 #contenitore-navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding-inline: 2em;
   background-color: white;
   margin: 0 auto;
   width: 80%;
@@ -395,15 +400,26 @@ header {
     text-transform: uppercase;
 }
 
+.toggle-button {
+  right: 50px;
+  position: absolute;
+  top: 20px;
+  font-size: 2em;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 20px;
+}
+
 #featured-works {
   width: 80%;
   margin: 0 auto;
   position: relative;
 }
 
-#featured-works i {
-  position: absolute;
-  right: 0px;
+#featured-works {
+  margin-bottom: 1.5em;
 }
 
 #featured-works span {
@@ -413,6 +429,35 @@ header {
 #carosello-bootstrap {
   width: 100%;
 }
+
+/* inizio media query */
+
+@media screen and (max-width: 890px) {
+  #contenitore-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #menu-lista {
+  display: none; 
+  width: 100%;
+}
+#menu-lista ul {
+width: 100%;
+flex-direction: column;
+}
+#menu-lista li {
+  align-items: flex-start;
+}
+ .toggle-button {
+    display: flex;
+  }
+  #menu-lista.active{
+    display: flex;
+  }
+}
+  
+
+/* fine media query  */
 
 
 
@@ -447,7 +492,7 @@ header {
 .sottolineatura-menu-navbar:hover::before {
   width: 100%;
 }
-
+/* fine animazioni */
 /* fine css di luigi i */
 
 .orange {
