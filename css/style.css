@@ -104,11 +104,11 @@ body p {
 }
 #border-bottom {
     position: absolute;
-    top: 20px;
+    top:0px;
     width: 50vw;
     border: 1px dotted #c9c9c9;
     margin-top: 20px;
-    margin-left: 175px;
+    margin-left: 155px;
 }
 #border-bottom2 {
     position: absolute;
@@ -210,7 +210,7 @@ body p {
 
 /*CSS Luigi Crisci*/
 body {
-    width: 100%;
+    width: 100vw;
     margin: 0;
   }
   
