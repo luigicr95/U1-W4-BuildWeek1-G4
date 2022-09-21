@@ -232,6 +232,9 @@ body {
   text-align: center;
 }
 
+#chef-image {
+  margin-bottom: 50px;
+}
 #grey-text {
   color: #959595;
 }
@@ -254,7 +257,18 @@ body {
 }
 
 #blog-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#blog-h2 {
   text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+#blog-hr {
   color: white;
 }
 
@@ -262,37 +276,25 @@ body {
   display: flex;
   width: 50%;
   background-color: white;
-  overflow: hidden;
 }
 
 .actual-dish-image {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  transition: 0.4s;
 }
 
 #fourth-image {
   height: 100%;
   width: 100%;
+  transition: 0.4s;
 }
-
-/*.grid-item-1 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.grid-item-2 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}*/
 
 #recipe-item {
   list-style: none;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  /*display: grid;
-  gap: 0;*/
 }
 
 .dish-description {
@@ -313,29 +315,37 @@ body {
 }
 
 .actual-dish-image:hover {
-  scale: 1.2;
+  scale: 1.4;
   rotate: 15deg;
 }
 
 .dish-image-4-div {
   width: 50%;
+  overflow: hidden;
 }
 
-.button {
+#fourth-image:hover {
+  scale: 1.2;
+  rotate: 15deg;
+}
+
+.button-grid {
   background: #ff530a;
-  color: white;
   padding: 30px 100px;
   margin-top: -20px;
   text-transform: uppercase;
   float: right;
-  text-decoration: none;
   border: 1px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
 }
 
-.dish-image:hover {
-  scale: 1.1;
-  rotate: 10deg;
-  overflow: hidden;
+.button-grid:hover {
+  background-color: transparent;
+  border-color: #ff4f02;
+  border-style: solid;
+  color: #ff4f02;
 }
 
 /*Fine CSS Luigi Crisci*/
