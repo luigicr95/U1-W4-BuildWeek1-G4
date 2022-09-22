@@ -362,6 +362,10 @@ header {
   text-transform: uppercase;
 }
 
+#sfondo-header {
+  margin-bottom: 3em;
+}
+
 #logo {
   padding: 1em;
 }
