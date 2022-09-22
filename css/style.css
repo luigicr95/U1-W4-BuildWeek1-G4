@@ -841,12 +841,6 @@ a:active {
 header {
   text-transform: uppercase;
 }
-
-#sfondo-header {
-  margin-bottom: 2em;
-  
-}
-
 #logo {
   padding: 1em;
 }
@@ -858,13 +852,9 @@ header img {
 
 #featured-works h3 {
   margin-bottom: 2em;
+  text-transform: uppercase;
 }
 
-/* .img-overlay {
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.164);
-} */
 
 #contenitore-navbar {
   display: flex;
@@ -879,7 +869,10 @@ header img {
   position: sticky;
   top: 0px;
   z-index: 1;
+  margin-top: -60px;
+  margin-bottom: 3em;
 }
+
 
 .menu-lista ul {
   display: flex;
@@ -954,6 +947,7 @@ header img {
   #contenitore-navbar {
     flex-direction: column;
     align-items: flex-start;
+    margin-top: -50px;
   }
   .menu-lista {
     display: none;
@@ -984,7 +978,7 @@ header img {
 @media screen and (max-width: 500px) {
   .toggle-button {
     font-size: 1em;
-    right: -34px;
+    right: -20px;
     top: 24px;
 }
   }
