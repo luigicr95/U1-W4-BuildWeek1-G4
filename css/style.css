@@ -312,120 +312,75 @@ main {
     text-align: left;
     margin-right: 4vw;
     margin-left: 0vw;
-  }
-  #border-bottom {
+  }#border-bottom {
     width: 82vw;
-  }
-  #border-bottom2 {
+  }#border-bottom2 {
     width: 74.9vw;
-  }
-  #border-bottom3 {
+  }#border-bottom3 {
     width: 75.7vw;
-  }
-  #border-bottom4 {
+  }#border-bottom4 {
     width: 82.2vw;
-  }
-  #border-bottom5 {
+  }#border-bottom5 {
     width: 67.3vw;
-  }
-  #border-bottom6 {
+  }#border-bottom6 {
     width: 84.3vw;
   }
-  #border-bottom3 {
-    width: 72.7vw;
-  }
-  #border-bottom {
-    width: 79.5vw;
-  }
-  #border-bottom2 {
-    width: 71.3vw;
-  }
-  #border-bottom3 {
-    width: 72vw;
-  }
-  #border-bottom4 {
-    width: 79.9vw;
-  }
-  #border-bottom5 {
-    width: 62.5vw;
-  }
-  #border-bottom6 {
-    width: 82.3vw;
-  }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   #section-price {
     text-align: left;
     margin-right: 4vw;
     margin-left: 0vw;
+  }#border-bottom {
+    width: 80vw;
+  }#border-bottom2 {
+    width: 71.7vw;
+  }#border-bottom3 {
+    width: 72.3vw;
+  }#border-bottom4 {
+    width: 80vw;
+  }#border-bottom5 {
+    width: 62.7vw;
+  }#border-bottom6 {
+    width: 82.7vw;
   }
-  #border-bottom {
-    width: 74.1vw;
-  }
-  #border-bottom2 {
-    width: 63vw;
-  }
-  #border-bottom3 {
-    width: 64vw;
-  }
-  #border-bottom4 {
-    width: 74.5vw;
-  }
-  #border-bottom5 {
-    width: 51.2vw;
-  }
-  #border-bottom6 {
+}
+@media screen and (min-width: 900px) and (max-width:950px) {
+  #section-price {
+    text-align: left;
+    margin-right: 4vw;
+    margin-left: 0vw;
+  }#border-bottom {
+    width: 77.5vw;
+  }#border-bottom2 {
+    width: 68.2vw;
+  }#border-bottom3 {
+    width: 69vw;
+  }#border-bottom4 {
     width: 77.8vw;
+  }#border-bottom5 {
+    width: 58.2vw;
+  }#border-bottom6 {
+    width: 80.7vw;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 795px) {
   #section-price {
     text-align: left;
     margin-right: 4vw;
     margin-left: 0vw;
-  }
-  #border-bottom {
-    width: 77.1vw;
-  }
-  #border-bottom2 {
-    width: 68.1vw;
-  }
-  #border-bottom3 {
-    width: 68.5vw;
-  }
-  #border-bottom4 {
-    width: 77.2vw;
-  }
-  #border-bottom5 {
-    width: 57.5vw;
-  }
-  #border-bottom6 {
-    width: 80.8vw;
-  }
-}
-@media screen and (max-width: 768px) {
-  #section-price {
-    text-align: left;
-    margin-right: 4vw;
-    margin-left: 0vw;
-  }
-  #border-bottom {
-    width: 71vw;
-  }
-  #border-bottom2 {
-    width: 58.5vw;
-  }
-  #border-bottom3 {
-    width: 59.3vw;
-  }
-  #border-bottom4 {
-    width: 71vw;
-  }
-  #border-bottom5 {
-    width: 44.7vw;
-  }
-  #border-bottom6 {
-    width: 76vw;
+  }#border-bottom {
+    width: 74.1vw;
+  }#border-bottom2 {
+    width: 63vw;
+  }#border-bottom3 {
+    width: 64vw;
+  }#border-bottom4 {
+    width: 74.4vw;
+  }#border-bottom5 {
+    width: 51.3vw;
+  }#border-bottom6 {
+    width: 77.7vw;
   }
 }
 @media screen and (max-width: 767px) {
@@ -433,38 +388,28 @@ main {
     text-align: left;
     margin-right: 4vw;
     margin-left: 0vw;
-  }
-  #border-bottom {
+  }#border-bottom {
     display: none;
-  }
-  #border-bottom2 {
+  }#border-bottom2 {
     display: none;
-  }
-  #border-bottom3 {
+  }#border-bottom3 {
     display: none;
-  }
-  #border-bottom4 {
+  }#border-bottom4 {
     display: none;
-  }
-  #border-bottom5 {
+  }#border-bottom5 {
     display: none;
-  }
-  #border-bottom6 {
+  }#border-bottom6 {
     display: none;
-  }
-  .span2 {
+  }.span2 {
     float: none;
     display: block;
     margin-bottom: 15px;
-  }
-  .form {
+  }.form {
     display: block;
     margin-left: 18px;
-  }
-  .input {
+  }.input {
     width: 90vw;
-  }
-  .input2 {
+  }.input2 {
     padding: 10px 0px;
     width: 23vw;
     margin-top: 20px;
