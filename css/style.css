@@ -843,7 +843,8 @@ header {
 }
 
 #sfondo-header {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
+  
 }
 
 #logo {
@@ -855,11 +856,15 @@ header img {
   height: auto;
 }
 
-.img-overlay {
+#featured-works h3 {
+  margin-bottom: 2em;
+}
+
+/* .img-overlay {
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.164);
-}
+} */
 
 #contenitore-navbar {
   display: flex;
@@ -901,7 +906,7 @@ header img {
 }
 
 #featured-works {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
 }
@@ -916,10 +921,24 @@ header img {
 
 #carosello-bootstrap {
   width: 100%;
+  display: flex;
+    justify-content: space-around;
+    animation-name: FadeInSixthDish;
+  animation-duration: 0.3s;
+  animation-delay: 0.8s;
+  animation-fill-mode: both;
+}
+.animation {
+  animation-name: FadeInSixthDish;
+  animation-duration: 0.3s;
+  animation-delay: 0.8s;
+  animation-fill-mode: both;
 }
 
-#immagini-scorrevoli {
-  display: none;
+
+.immagini-scorrevoli {
+  width: 235px;
+    margin-right: 2em;
 }
 
 #carosello-tre-immagini {
@@ -955,6 +974,20 @@ header img {
     background-color: white;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .toggle-button {
+    right: -4px
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .toggle-button {
+    font-size: 1em;
+    right: -34px;
+    top: 24px;
+}
+  }
 /* ^^media query navbar */
 
 @media screen and (max-width: 1180px) {
@@ -963,34 +996,49 @@ header img {
   }
   #carosello-tre-immagini {
     width: 100%;
-    display: block;
-  }
+    display: flex;
+      justify-content: space-around;
 }
+  }
+
 
 @media screen and (max-width: 885px) {
   #carosello-bootstrap {
     display: none;
   }
   #carosello-tre-immagini {
-    width: 100%;
     display: none;
   }
   #carosello-due-immagini {
-    max-width: 100%;
-    display: block;
+    width: 100%;
+    display: flex;
+      justify-content: space-around;
   }
 }
 
+@media screen and (max-width: 590px) {
+  #carosello-due-immagini .immagini-scorrevoli {
+    width: 160px;
+      margin-right: 1em;
+  }
+}
+@media screen and (max-width: 400px) {
+  #carosello-due-immagini .immagini-scorrevoli {
+    width: 120px;
+      margin-right: 1em;
+  }
+}
+
+/* ^^madia query carosello */
+
+
 /* fine media query  */
 
-/* #immagini-scorrevoli {
-    display: flex;
-    justify-content: space-around;
-}  ^^questa regola l'ho commentata perchè inutile con bootstrap*/
+
 
 .immagini-scorrevoli {
-  width: 219px;
-  margin-right: 1em;
+  width: 235px;
+  margin-right: 2em;
 }
 
 /* animazioni */
@@ -1014,6 +1062,8 @@ header img {
 .sottolineatura-menu-navbar:hover::before {
   width: 100%;
 }
+
+
 /* fine animazioni */
 /* fine css di luigi i */
 
