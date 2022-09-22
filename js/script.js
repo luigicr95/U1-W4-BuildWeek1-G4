@@ -10,10 +10,10 @@ toggleButton.addEventListener("click", () => {
 /*const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
-      entry.target.classList.add("dish-animation-running");
-      return;
+      entry.target.classList.add("animation-running");
+      console.log(entry.target);
     }
   });
 });
 
-observer.observe(document.querySelectorAll("#recipe-item"));*/
+observer.observe(document.querySelector("#recipe-item"));*/
