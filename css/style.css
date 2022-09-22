@@ -472,14 +472,18 @@ main {
   animation-fill-mode: both;
 }
 
-#grey-text {
+.grey-text {
   color: #959595;
   opacity: 0;
+}
+
+.fade-text {
   animation-name: ChefUp;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
   animation-delay: 0.5s;
   animation-fill-mode: both;
 }
+
 @keyframes ChefUp {
   from {
     opacity: 0;
