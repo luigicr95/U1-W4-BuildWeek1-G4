@@ -296,30 +296,43 @@ main {
 }
 
 /* Inizio media queries Antonino*/
-@media screen and (max-width: 1200px) {
-    #section-price {
-        text-align: left;
-        margin-right: 4vw;
-        margin-left: 0vw;
-    }
-    #border-bottom {
-        width: 82vw;
-    }
-    #border-bottom2 {
-        width: 74.9vw;
-    }
-    #border-bottom3 {
-        width: 75.7vw;
-    }
-    #border-bottom4 {
-        width: 82.2vw;
-    }
-    #border-bottom5 {
-        width: 67.3vw;
-    }
-    #border-bottom6 {
-        width: 84.3vw;
-    }
+@media screen and (min-width: 1226px) and (max-width:1310px){
+  #section-price {
+    text-align: left;
+    margin-right: 4vw;
+    margin-left: 0vw;
+  }#border-bottom {
+    width: 82.8vw;
+  }#border-bottom2 {
+    width: 75.5vw;
+  }#border-bottom3 {
+    width: 76.2vw;
+  }#border-bottom4 {
+    width: 82.8vw;
+  }#border-bottom5 {
+    width: 68vw;
+  }#border-bottom6 {
+    width: 84.8vw;
+  }
+}
+@media screen and (max-width: 1225px) {
+  #section-price {
+    text-align: left;
+    margin-right: 4vw;
+    margin-left: 0vw;
+  }#border-bottom {
+    width: 82vw;
+  }#border-bottom2 {
+    width: 74.9vw;
+  }#border-bottom3 {
+    width: 75.7vw;
+  }#border-bottom4 {
+    width: 82.2vw;
+  }#border-bottom5 {
+    width: 67.3vw;
+  }#border-bottom6 {
+    width: 84.3vw;
+  }
 }
 @media screen and (max-width: 1080px) {
     #section-price {
