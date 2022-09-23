@@ -51,6 +51,29 @@ const observer3 = new IntersectionObserver(entries => {
   });
 });
 observer3.observe(document.querySelector('#footer-3-anim'));
+observer.observe(document.querySelector("#recipe-item"));
+
+// -----------------------------------------------------------------------------
+
+// js luigi 1
+
+window.onscroll = function() {animazioneScrollCarosello()};
+function animazioneScrollCarosello() { 
+
+const elementoDaAnimare = document.getElementById("carosello-bootstrap");
+const posizioneElemento = elementoDaAnimare.offsetTop;
+
+
+if (window.pageYOffset >= posizioneElemento) {
+  elementoDaAnimare.classList.add("animation")
+} else {
+  elementoDaAnimare.classList.remove("animation");
+} 
+}
+
+// ---------------------------------------------------------------------------
+
+
 
 // ----------------------------------------
 const observer4 = new IntersectionObserver(entries => {
