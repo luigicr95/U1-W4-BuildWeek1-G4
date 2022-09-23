@@ -109,6 +109,7 @@ window.onscroll = function () {
   chefPopUp();
   chefTextPopUp();
   greyTextPopUp();
+  animazioneScrollCarosello();
 };
 function animationOnScroll() {
   let fadeInAnimation = document.getElementById("dish-one");
@@ -199,21 +200,19 @@ function greyTextPopUp() {
 
 // -----------------------------------------------------------------------------
 
-// js luigi 1
+//  js luigi 1
 
-// window.onscroll = function () {
-//   animazioneScrollCarosello();
-// };
-// function animazioneScrollCarosello() {
-//   const elementoDaAnimare = document.getElementById("carosello-bootstrap");
-//   const posizioneElemento = elementoDaAnimare.offsetTop;
+ 
+ function animazioneScrollCarosello() {
+   const elementoDaAnimare = document.getElementById("carosello-bootstrap");
+   const posizioneElemento = elementoDaAnimare.offsetTop;
 
-//   if (window.pageYOffset >= posizioneElemento) {
-//     elementoDaAnimare.classList.add("animation");
-//   } else {
-//     elementoDaAnimare.classList.remove("animation");
-//   }
-// }
+   if (window.pageYOffset >= posizioneElemento) {
+     elementoDaAnimare.classList.add("animation");
+   } else {
+     elementoDaAnimare.classList.remove("animation");
+   }
+ }
 
 // ---------------------------------------------------------------------------
 
