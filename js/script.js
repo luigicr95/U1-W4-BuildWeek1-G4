@@ -1,197 +1,129 @@
-const toggleButton = document.getElementsByClassName("toggle-button")[0];
-const menuLista = document.getElementsByClassName("menu-lista")[0];
+// scroll animazione  ARAS ---------------------
 
-toggleButton.addEventListener("click", () => {
-  menuLista.classList.toggle("active");
-});
-
-// const contact=document.querySelectorAll('#contanct');
-
-// window.addEventListener('scroll', checkEvent);
-
-// checkEvent();
-
-// function checkEvent(){
-//     const triggerbottom=console.log(window.innerHeight/5*4);
-
-// boxes.forEach(section => {
-//     const sectionTop= section.getBoundingClientRect().top;
-//     if(sectionTop <triggerbottom ){
-//       section.classList.add('show')   ;
-//     } else{
-//         section.classList..remove('show');
-//     }
-
-// });
-
-// }
-menuLista.classList.toggle("active");
-
-// Create the observer
-
-/*const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
+const observer = new IntersectionObserver(entries => {
+  
+  entries.forEach(entry => {
+    
     if (entry.isIntersecting) {
-      entry.target.classList.add("animation-running");
-      console.log(entry.target);
+     
+      entry.target.classList.add('anime-footer--up');
     }
   });
 });
+observer.observe(document.querySelector('#footer-1-anim'));
 
-observer.observe(document.querySelector("#recipe-item"));*/
-// ------------------------------------------------------
+// ----------------------------------------
 
-// window.addEventListener("scroll",() => {
-//     let content = document.getElementById("carosello-bootstrap");
-//     let contentPosition = content.getBoundingClientRect().top;
-//     let screenPosition = innerHeight /1;
-//     if (contentPosition < screenPosition) {
-//       content.getElementsByClassName("")[0];
-//       console.log()
-//     }
-//     else {
-//         content.classList.remove("");
-//     }
-//     });
+const observer1 = new IntersectionObserver(entries => {
+  
+  entries.forEach(entry => {
+    
+    if (entry.isIntersecting) {
+     
+      entry.target.classList.add('anime-footer--up');
+    }
+  });
+});
+observer1.observe(document.querySelector('#anime-hr'));
 
-// window.addEventListener("scroll",() => {
-//     let content = document.getElementById("about-us");
-//     let contentPosition = content.getBoundingClientRect().top;
-//     let screenPosition = innerHeight /30;
-//     console.log()
-//     if (contentPosition < screenPosition) {
-//         content.getElementsByClassName("animation")[0];
-//     }
-//     else {
-//         content.classList.remove("animation");
-//     }
-//     });
-// console.log()
+// ----------------------------------------
+const observer2 = new IntersectionObserver(entries => {
+  
+  entries.forEach(entry => {
+    
+    if (entry.isIntersecting) {
+     
+      entry.target.classList.add('anime-footer--right');
+    }
+  });
+});
+observer2.observe(document.querySelector('#footer-2-anim'));
 
-// -----------------------------------------------------
+// ----------------------------------------
+const observer3 = new IntersectionObserver(entries => {
+  
+  entries.forEach(entry => {
+    
+    if (entry.isIntersecting) {
+     
+      entry.target.classList.add('anime-footer--down');
+    }
+  });
+});
+observer3.observe(document.querySelector('#footer-3-anim'));
 
-// const animationScroll = document.getElementById("carosello-bootstrap");
+// ----------------------------------------
+const observer4 = new IntersectionObserver(entries => {
+  
+  entries.forEach(entry => {
+    
+    if (entry.isIntersecting) {
+     
+      entry.target.classList.add('anime-footer--down','delay06');
+    }
+  });
+});
+observer4.observe(document.querySelector('#footer-4-anim'));
 
-// window.addEventListener("scroll", () => {
+// ----------------------------------------
+const observer5 = new IntersectionObserver(entries => {
+  
+  entries.forEach(entry => {
+    
+    if (entry.isIntersecting) {
+     
+      entry.target.classList.add('anime-footer--down','delay09');
+    }
+  });
+});
+observer5.observe(document.querySelector('#footer-5-anim'));
+// ----------------------------------------
+const observer6 = new IntersectionObserver(entries => {
+  
+  entries.forEach(entry => {
+    
+    if (entry.isIntersecting) {
+     
+      entry.target.classList.add('form-btn');
+    }
+  });
+});
+observer6.observe(document.querySelector('#form-anime'));
+// ----------------------------------------
+const observer7 = new IntersectionObserver(entries => {
+  
+  entries.forEach(entry => {
+    
+    if (entry.isIntersecting) {
+     
+      entry.target.classList.add('anime-footer--right');
+    }
+  });
+});
+observer7.observe(document.querySelector('#box-contanct'));
+// ----------------------------------------
+const observer8 = new IntersectionObserver(entries => {
+  
+  entries.forEach(entry => {
+    
+    if (entry.isIntersecting) {
+     
+      entry.target.classList.add('anime-footer--right','delay08');
+    }
+  });
+});
+observer8.observe(document.querySelector('#latest-news'));
+// ----------------------------------------
+const observer9 = new IntersectionObserver(entries => {
+  
+  entries.forEach(entry => {
+    
+    if (entry.isIntersecting) {
+     
+      entry.target.classList.add('anime-footer--right','delay13');
+    }
+  });
+});
+observer9.observe(document.querySelector('#photo-and-social'));
 
-//   const {scrollTop, clientHeight} = document.documentElement;
-//   // console.log(scrollTop, clientHeight)
-// // con questo console.log posso trovare la posizione dell'elemento nel documento
-
-// const topElementToTopViewport = animationScroll.getBoundingClientRect().top;
-
-// // console.log(topElementToTopViewport);
-// // con questo console.log posso calcolare la distanza della top vh dall'inizio alla fine
-
-// if (scrollTop > (scrollTop + topElementToTopViewport).toFixed() - clientHeight *0.8){
-//   animationScroll.getElementsById.getElementById("carosello.bootstrap").add("active")
-// }
-
-// ---------------------------------------------------------------------------------
-
-const elementoDaAnimare = document.getElementById("carosello-bootstrap");
-const animazione = elementoDaAnimare.offsetTop;
-function animazioneScroll() {
-  if (window.pageYOffset > animazione) {
-    elementoDaAnimare.classList.add("animation");
-  } else {
-    elementoDaAnimare.classList.remove("animation");
-  }
-}
-
-//animazione Luigi Crisci
-window.onscroll = function () {
-  animationOnScroll();
-  animationOnScrollTwo();
-  animationOnScrollThree();
-  animationOnScrollFour();
-  animationOnScrollFive();
-  animationOnScrollSix();
-  buttonScroll();
-  chefPopUp();
-  chefTextPopUp();
-  greyTextPopUp();
-};
-function animationOnScroll() {
-  let fadeInAnimation = document.getElementById("dish-one");
-  let animationApplied = document.getElementById("chef-h2").offsetTop;
-  if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("dish-1");
-  }
-}
-
-function animationOnScrollTwo() {
-  let fadeInAnimation = document.getElementById("dish-two");
-  let animationApplied = document.getElementById("chef-h2").offsetTop;
-  if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("dish-2");
-  }
-}
-
-function animationOnScrollThree() {
-  let fadeInAnimation = document.getElementById("dish-three");
-  let animationApplied = document.getElementById("grey-text-p").offsetTop;
-  if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("dish-1");
-  }
-}
-
-function animationOnScrollFour() {
-  let fadeInAnimation = document.getElementById("dish-four");
-  let animationApplied = document.getElementById("grey-text-p").offsetTop;
-  if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("dish-2");
-  }
-}
-
-function animationOnScrollFive() {
-  let fadeInAnimation = document.getElementById("dish-five");
-  let animationApplied = document.getElementById("blog-images").offsetTop;
-  if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("dish-1");
-  }
-}
-
-function animationOnScrollSix() {
-  let fadeInAnimation = document.getElementById("dish-six");
-  let animationApplied = document.getElementById("blog-images").offsetTop;
-  if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("dish-6");
-  }
-}
-
-function buttonScroll() {
-  let fadeInAnimation = document.getElementById("button-popup");
-  let animationApplied = document.getElementById("blog-images").offsetTop;
-  if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("button-pop");
-  }
-}
-
-function chefPopUp() {
-  let fadeInAnimation = document.getElementById("chef-image");
-  let animationApplied =
-    document.getElementById("contenitore-navbar").offsetTop;
-  if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("chef-pop");
-  }
-}
-
-function chefTextPopUp() {
-  let fadeInAnimation = document.getElementById("chef-h2");
-  let animationApplied =
-    document.getElementById("contenitore-navbar").offsetTop;
-  if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("chef-pop");
-  }
-}
-
-function greyTextPopUp() {
-  let fadeInAnimation = document.getElementById("grey-text-p");
-  let animationApplied =
-    document.getElementById("contenitore-navbar").offsetTop;
-  if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("grey-text-fade");
-  }
-}
-//fine animazione Luigi Crisci
+// fine scroll animazione  ARAS ---------------------
