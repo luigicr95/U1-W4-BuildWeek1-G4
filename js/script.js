@@ -105,23 +105,4 @@ function AnimazioneScroll() {
 }
 console.log(AnimazioneScroll())
 
-/*const elementoDaAnimare2 = document.getElementById("about-us");
-const posizioneElemento2 = elementoDaAnimare.offsetTop;
 
-window.onscroll = function() {animazioneScroll()};
-
-
-function animazioneScroll() {
-  if (window.pageYOffset >= posizioneElemento) {
-    elementoDaAnimare2.classList.add("animation")
-  } else {
-    elementoDaAnimare2.classList.remove("animation");
-  }
-}*/
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  if (document.documentElement.scrollTop > 350) {
-    document.getElementById("menu-2").className = "goUp";
-  }
-}
