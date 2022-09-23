@@ -43,33 +43,67 @@ menuLista.classList.toggle("active")
 observer.observe(document.querySelector("#recipe-item"));*/
 // ------------------------------------------------------
 
-window.addEventListener("scroll",() => {
-    let content = document.getElementById("carosello-bootstrap");
-    let contentPosition = content.getBoundingClientRect().top;
-    let screenPosition = innerHeight /1;
-    console.log()
-    if (contentPosition < screenPosition) {
-        content.getElementsByClassName("animation")[0];
-    }  
-    else {
-        content.classList.remove("animation");
-    }
-    });
+// window.addEventListener("scroll",() => {
+//     let content = document.getElementById("carosello-bootstrap");
+//     let contentPosition = content.getBoundingClientRect().top;
+//     let screenPosition = innerHeight /1;
+//     if (contentPosition < screenPosition) {
+//       content.getElementsByClassName("")[0];
+//       console.log()
+//     }  
+//     else {
+//         content.classList.remove("");
+//     }
+//     });
 
 
-window.addEventListener("scroll",() => {
-    let content = document.getElementById("about-us");
-    let contentPosition = content.getBoundingClientRect().top;
-    let screenPosition = innerHeight /3;
-    console.log()
-    if (contentPosition < screenPosition) {
-        content.getElementsByClassName("animation")[0];
-    }  
-    else {
-        content.classList.remove("animation");
-    }
-    });
-console.log()
+// window.addEventListener("scroll",() => {
+//     let content = document.getElementById("about-us");
+//     let contentPosition = content.getBoundingClientRect().top;
+//     let screenPosition = innerHeight /30;
+//     console.log()
+//     if (contentPosition < screenPosition) {
+//         content.getElementsByClassName("animation")[0];
+//     }  
+//     else {
+//         content.classList.remove("animation");
+//     }
+//     });
+// console.log()
 
 
 // -----------------------------------------------------
+
+// const animationScroll = document.getElementById("carosello-bootstrap");
+
+// window.addEventListener("scroll", () => {
+
+//   const {scrollTop, clientHeight} = document.documentElement;
+//   // console.log(scrollTop, clientHeight)
+// // con questo console.log posso trovare la posizione dell'elemento nel documento
+
+// const topElementToTopViewport = animationScroll.getBoundingClientRect().top;
+
+// // console.log(topElementToTopViewport);
+// // con questo console.log posso calcolare la distanza della top vh dall'inizio alla fine
+
+// if (scrollTop > (scrollTop + topElementToTopViewport).toFixed() - clientHeight *0.8){
+//   animationScroll.getElementsById.getElementById("carosello.bootstrap").add("active")
+// }
+
+// ---------------------------------------------------------------------------------
+
+const elementoDaAnimare = document.getElementById("carosello-bootstrap");
+ const animazione = elementoDaAnimare.offsetTop;
+
+function AnimazioneScroll() {
+  if (window.pageYOffset >= animazione) {
+    elementoDaAnimare.classList.add("animation")
+  } else {
+    elementoDaAnimare.classList.remove("animation");
+  }
+}
+console.log(AnimazioneScroll())
+
+
+
