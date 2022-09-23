@@ -93,17 +93,20 @@ observer.observe(document.querySelector("#recipe-item"));*/
 
 // ---------------------------------------------------------------------------------
 
-const elementoDaAnimare = document.getElementById("carosello-bootstrap");
- const animazione = elementoDaAnimare.offsetTop;
+const elementoDaAnimare = document.getElementById("about-us");
+const posizioneElemento = elementoDaAnimare.offsetTop;
 
-function AnimazioneScroll() {
-  if (window.pageYOffset >= animazione) {
+window.onscroll = function() {animazioneScroll()};
+
+
+function animazioneScroll() {
+  if (window.pageYOffset >= posizioneElemento) {
     elementoDaAnimare.classList.add("animation")
   } else {
     elementoDaAnimare.classList.remove("animation");
   }
 }
-console.log(AnimazioneScroll())
+
 
 
 
