@@ -93,19 +93,36 @@ observer.observe(document.querySelector("#recipe-item"));*/
 
 // ---------------------------------------------------------------------------------
 
-const elementoDaAnimare = document.getElementById("about-us");
-const posizioneElemento = elementoDaAnimare.offsetTop;
-
 window.onscroll = function() {animazioneScroll()};
 
 
-function animazioneScroll() {
-  if (window.pageYOffset >= posizioneElemento) {
-    elementoDaAnimare.classList.add("animation")
-  } else {
-    elementoDaAnimare.classList.remove("animation");
-  }
+function animazioneScroll() { 
+
+const elementoDaAnimare = document.getElementById("recipe-item");
+const posizioneElemento = elementoDaAnimare.offsetTop;
+
+
+if (window.pageYOffset >= posizioneElemento) {
+  elementoDaAnimare.classList.add("animation")
+} else {
+  elementoDaAnimare.classList.remove("animation");
+} 
 }
+
+function animazioneScroll() {
+  
+  const elementoDaAnimare = document.getElementById("about-us");
+  const posizioneElemento = elementoDaAnimare.offsetTop;
+  
+  
+   if (window.pageYOffset >= posizioneElemento) {
+     elementoDaAnimare.classList.add("animation")
+   } else {
+     elementoDaAnimare.classList.remove("animation");
+   }
+}
+
+
 
 
 
