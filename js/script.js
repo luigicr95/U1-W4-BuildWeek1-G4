@@ -223,3 +223,91 @@ function greyTextPopUp() {
 
 // ---------------------------------------------------------------------------
 
+//JS Antonino
+const observer10 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("menu-item-1");
+    }
+  });
+});
+observer10.observe(document.querySelector("#anime-item-1"));
+ 
+//
+
+const observer11 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("menu-item-2");
+    }
+  });
+});
+observer11.observe(document.querySelector("#anime-item-2"));
+
+//
+
+const observer12 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("menu-item-3");
+    }
+  });
+});
+observer12.observe(document.querySelector("#anime-item-3"));
+
+//
+
+const observer13 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("menu-item-4");
+    }
+  });
+});
+observer13.observe(document.querySelector("#anime-item-4"));
+
+//
+
+const observer14 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("menu-item-5");
+    }
+  });
+});
+observer14.observe(document.querySelector("#anime-item-5"));
+
+//
+
+const observer15 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("menu-item-6");
+    }
+  });
+});
+observer15.observe(document.querySelector("#anime-item-6"));
+
+//
+
+const observer16 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("title-menu2");
+    }
+  });
+});
+observer16.observe(document.querySelector("#anime-title-menu2"));
+
+// 
+
+const observer17 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("button");
+    }
+  });
+});
+observer17.observe(document.querySelector("#anime-button"));
+
+
