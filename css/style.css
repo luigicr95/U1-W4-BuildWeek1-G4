@@ -267,6 +267,7 @@ main {
   width: 50vw;
   padding-top: 30px;
 }
+
 .input {
   border: none;
   font-size: 0.8em;
@@ -850,16 +851,18 @@ header img {
   width: 100%;
   display: flex;
     justify-content: space-around;
-     animation-name: FadeInSixthDish;
+    /* animation-name: FadeInSixthDish;
   animation-duration: 0.3s;
   animation-delay: 0.8s;
-  animation-fill-mode: both; 
+  animation-fill-mode: both; */
+  opacity: 0;
 }
 .animation {
   animation-name: FadeInSixthDish;
   animation-duration: 0.3s;
-  animation-delay: 0.8s;
+  animation-delay: 0.3s;
   animation-fill-mode: both;
+  opacity: 1;
 }
 
 
