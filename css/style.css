@@ -70,7 +70,7 @@ main {
     display: block;
     text-align: center;
 }
-#title-menu2 {
+.title-menu2 {
     padding-bottom: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -219,21 +219,23 @@ main {
     margin-left: 110px;
 }
 
-#button {
+.button {
+    animation-name: ButtonScale;
+    animation-duration: 0.5s;
+    animation-delay: 1.2s;
+    animation-fill-mode: both;
+}
+.button-oranger:hover {
+    background-color: #ff4f02;
+    color: white;
+}
+.button-orange{
     padding: 28px 105px;
     background-color: none;
     border: 1px solid #ff4f02;
     color: #ff4f02;
     text-transform: uppercase;
     font-size: 15px;
-    animation-name: ButtonScale;
-    animation-duration: 0.5s;
-    animation-delay: 1.2s;
-    animation-fill-mode: both;
-}
-#button:hover {
-    background-color: #ff4f02;
-    color: white;
 }
 /*Section-subscribe (Antonino)*/
 
