@@ -6,6 +6,7 @@ menuLista.classList.toggle("active")
 })
 
 
+
 // scroll animazione  ARAS ---------------------
 
 const observer = new IntersectionObserver(entries => {
@@ -133,15 +134,6 @@ const observer9 = new IntersectionObserver(entries => {
   });
 });
 observer9.observe(document.querySelector('#photo-and-social'));
-
-
-
-
-
-
-
-
-
 
 
 // fine scroll animazione  ARAS ---------------------
