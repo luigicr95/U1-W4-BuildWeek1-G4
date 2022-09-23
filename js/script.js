@@ -117,6 +117,59 @@ const observer9 = new IntersectionObserver((entries) => {
 });
 observer9.observe(document.querySelector("#photo-and-social"));
 
+//animazione Luigi Crisci
+window.onscroll = function () {
+  animationOnScroll();
+  animationOnScrollTwo();
+  animationOnScrollThree();
+  animationOnScrollFour();
+  animationOnScrollFive();
+  animationOnScrollSix();
+  buttonScroll();
+  chefPopUp();
+  chefTextPopUp();
+  greyTextPopUp();
+};
+function animationOnScroll() {
+  let fadeInAnimation = document.getElementById("dish-one");
+  let animationApplied = document.getElementById("chef-h2").offsetTop;
+  if (window.pageYOffset >= animationApplied) {
+    fadeInAnimation.classList.add("dish-1");
+  }
+}
+
+function animationOnScrollTwo() {
+  let fadeInAnimation = document.getElementById("dish-two");
+  let animationApplied = document.getElementById("chef-h2").offsetTop;
+  if (window.pageYOffset >= animationApplied) {
+    fadeInAnimation.classList.add("dish-2");
+  }
+}
+
+function animationOnScrollThree() {
+  let fadeInAnimation = document.getElementById("dish-three");
+  let animationApplied = document.getElementById("grey-text-p").offsetTop;
+  if (window.pageYOffset >= animationApplied) {
+    fadeInAnimation.classList.add("dish-1");
+  }
+}
+
+function animationOnScrollFour() {
+  let fadeInAnimation = document.getElementById("dish-four");
+  let animationApplied = document.getElementById("grey-text-p").offsetTop;
+  if (window.pageYOffset >= animationApplied) {
+    fadeInAnimation.classList.add("dish-2");
+  }
+}
+
+function animationOnScrollFive() {
+  let fadeInAnimation = document.getElementById("dish-five");
+  let animationApplied = document.getElementById("blog-images").offsetTop;
+  if (window.pageYOffset >= animationApplied) {
+    fadeInAnimation.classList.add("dish-1");
+  }
+}
+
 function animationOnScrollSix() {
   let fadeInAnimation = document.getElementById("dish-six");
   let animationApplied = document.getElementById("blog-images").offsetTop;
