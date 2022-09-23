@@ -483,23 +483,25 @@ main {
 #chef-image {
   margin-bottom: 50px;
   opacity: 0;
-  animation-name: ChefUp;
-  animation-duration: 0.3s;
-  animation-delay: 0.3s;
-  animation-fill-mode: both;
 }
 
 #chef-h2 {
   opacity: 0;
+}
+
+.chef-pop {
   animation-name: ChefUp;
   animation-duration: 0.3s;
   animation-delay: 0.4s;
   animation-fill-mode: both;
 }
 
-#grey-text {
+.grey-text {
   color: #959595;
   opacity: 0;
+}
+
+.grey-text-fade {
   animation-name: ChefUp;
   animation-duration: 0.3s;
   animation-delay: 0.5s;
@@ -557,10 +559,10 @@ main {
   display: flex;
   width: 50%;
   background-color: white;
+  opacity: 0;
 }
 
 .dish-1 {
-  opacity: 0;
   animation-name: FadeIn;
   animation-duration: 0.3s;
   animation-delay: 0.3s;
@@ -575,35 +577,11 @@ main {
   animation-fill-mode: both;
 }
 
-.dish-3 {
-  opacity: 0;
-  animation-name: FadeIn;
-  animation-duration: 0.3s;
-  animation-delay: 0.5s;
-  animation-fill-mode: both;
-}
-
-.dish-4 {
-  opacity: 0;
-  animation-name: FadeIn;
-  animation-duration: 0.3s;
-  animation-delay: 0.6s;
-  animation-fill-mode: both;
-}
-
-.dish-5 {
-  opacity: 0;
-  animation-name: FadeIn;
-  animation-duration: 0.3s;
-  animation-delay: 0.7s;
-  animation-fill-mode: both;
-}
-
 .dish-6 {
   opacity: 0;
   animation-name: FadeInSixthDish;
   animation-duration: 0.3s;
-  animation-delay: 0.8s;
+  animation-delay: 0.3s;
   animation-fill-mode: both;
 }
 
@@ -697,9 +675,12 @@ main {
   border: 1px;
   text-decoration: none;
   opacity: 0;
+}
+
+.button-pop {
   animation-name: ButtonScale;
   animation-duration: 0.5s;
-  animation-delay: 1.2s;
+  animation-delay: 1.5s;
   animation-fill-mode: both;
 }
 

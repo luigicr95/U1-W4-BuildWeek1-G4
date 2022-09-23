@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="./css/style.css" />
 <title>Sito Restaurant</title>
 </head>
-<body onscroll="animationOnScroll()"></body>"
+<body>
     
       
       <header>
@@ -125,13 +125,13 @@
       <section id="about-us">
         <div id="introduction">
           <div id="image-and-text">
-            <img id="chef-image" src="./images/cooker-img.png" alt="chef-image" />
-            <h2 id="chef-h2">
+            <img onscroll="chefPopUp()" id="chef-image" src="./images/cooker-img.png" alt="chef-image" />
+            <h2 onscroll="chefTextPopUp()" id="chef-h2">
               Your <span class="orange-text">Restaurant's</span> <br />
               Website Has To Look <span class="orange-text">Good </span>
             </h2>
             <hr />
-            <p class="grey-text  fade-text">
+            <p onscroll="greyTextPopUp()" id="grey-text-p" class="grey-text  fade-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -154,7 +154,7 @@
           
           <div id="recipe-list">
             <ul id="recipe-item">
-              <li id="dish-one" class="single-dishes">
+              <li onscroll="animationOnScroll()" id="dish-one" class="single-dishes">
                 <div class="dish-image-div">
                   <img class="actual-dish-image" src="./images/blog/blog-img-1.jpg" />
                 </div>
@@ -167,7 +167,7 @@
                   </p>
                 </div>
               </li>
-              <li id="dish-two" class="single-dishes">
+              <li onscroll="animationOnScrollTwo()" id="dish-two" class="single-dishes">
                 <div class="dish-image-div">
                   <img class="actual-dish-image" src="./images/blog/blog-img-2.jpg" />
                 </div>
@@ -180,7 +180,7 @@
                   </p>
                 </div>
               </li>
-              <li id="dish-three" class="single-dishes">
+              <li onscroll="animationOnScrollThree()" id="dish-three" class="single-dishes">
                 <div class="dish-description">
                   <h3>Homestyle Chicken Pot Pie</h3>
                   <hr>
@@ -193,7 +193,7 @@
                   <img class="actual-dish-image" src="./images/blog/blog-img-3.jpg" />
                 </div>
               </li>
-              <li id="dish-four" class="single-dishes">
+              <li onscroll="animationOnScrollFour()" id="dish-four" class="single-dishes">
                 <div class="dish-description">
                   <h3>Homestyle Chicken Pot Pie</h3>
                   <hr>
@@ -206,7 +206,7 @@
                   <img id="fourth-image" src="./images/blog/blog-img-4.jpg" />
                 </div>
               </li>
-              <li id="dish-five" class="single-dishes">
+              <li onscroll="animationOnScrollFive()" id="dish-five" class="single-dishes">
                 <div class="dish-image-div">
                   <img class="actual-dish-image" src="./images/blog/blog-img-5.jpg" />
                 </div>
@@ -219,7 +219,7 @@
                   </p>
                 </div>
               </li>
-              <li id="dish-six" class="single-dishes">
+              <li onscroll="animationOnScrollSix()" id="dish-six" class="single-dishes">
                 <div class="dish-image-div">
                   <img class="actual-dish-image" src="./images/blog/blog-img-6.jpg" />
                 </div>
@@ -233,7 +233,7 @@
                 </div>
               </li>
             </ul>
-            <a class="button-grid" href="#">More Info</a>
+            <a onscroll="buttonScroll()" id="button-popup" class="button-grid" href="#">More Info</a>
           </div>
         </div>
       </section>

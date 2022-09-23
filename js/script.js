@@ -99,53 +99,99 @@ function animazioneScroll() {
   }
 }
 
+//animazione Luigi Crisci
 window.onscroll = function () {
   animationOnScroll();
+  animationOnScrollTwo();
+  animationOnScrollThree();
+  animationOnScrollFour();
+  animationOnScrollFive();
+  animationOnScrollSix();
+  buttonScroll();
+  chefPopUp();
+  chefTextPopUp();
+  greyTextPopUp();
 };
 function animationOnScroll() {
   let fadeInAnimation = document.getElementById("dish-one");
-  let animationApplied = fadeInAnimation.offsetTop;
+  let animationApplied = document.getElementById("chef-h2").offsetTop;
   if (window.pageYOffset >= animationApplied) {
     fadeInAnimation.classList.add("dish-1");
   }
 }
 
-function animationOnScrollOne() {
+function animationOnScrollTwo() {
   let fadeInAnimation = document.getElementById("dish-two");
-  let animationApplied = fadeInAnimation.offsetTop;
+  let animationApplied = document.getElementById("chef-h2").offsetTop;
   if (window.pageYOffset >= animationApplied) {
     fadeInAnimation.classList.add("dish-2");
   }
 }
 
-function animationOnScrollTwo() {
-  const fadeInAnimation = document.getElementById("dish-three");
-  const animationApplied = fadeInAnimation.offsetTop;
-  if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("dish-3");
-  }
-}
-
 function animationOnScrollThree() {
-  let fadeInAnimation = document.getElementById("dish-four");
-  let animationApplied = fadeInAnimation.offsetTop;
+  let fadeInAnimation = document.getElementById("dish-three");
+  let animationApplied = document.getElementById("grey-text-p").offsetTop;
   if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("dish-4");
+    fadeInAnimation.classList.add("dish-1");
   }
 }
 
 function animationOnScrollFour() {
-  let fadeInAnimation = document.getElementById("dish-five");
-  let animationApplied = fadeInAnimation.offsetTop;
+  let fadeInAnimation = document.getElementById("dish-four");
+  let animationApplied = document.getElementById("grey-text-p").offsetTop;
   if (window.pageYOffset >= animationApplied) {
-    fadeInAnimation.classList.add("dish-5");
+    fadeInAnimation.classList.add("dish-2");
   }
 }
 
 function animationOnScrollFive() {
+  let fadeInAnimation = document.getElementById("dish-five");
+  let animationApplied = document.getElementById("blog-images").offsetTop;
+  if (window.pageYOffset >= animationApplied) {
+    fadeInAnimation.classList.add("dish-1");
+  }
+}
+
+function animationOnScrollSix() {
   let fadeInAnimation = document.getElementById("dish-six");
-  let animationApplied = fadeInAnimation.offsetTop;
+  let animationApplied = document.getElementById("blog-images").offsetTop;
   if (window.pageYOffset >= animationApplied) {
     fadeInAnimation.classList.add("dish-6");
   }
 }
+
+function buttonScroll() {
+  let fadeInAnimation = document.getElementById("button-popup");
+  let animationApplied = document.getElementById("blog-images").offsetTop;
+  if (window.pageYOffset >= animationApplied) {
+    fadeInAnimation.classList.add("button-pop");
+  }
+}
+
+function chefPopUp() {
+  let fadeInAnimation = document.getElementById("chef-image");
+  let animationApplied =
+    document.getElementById("contenitore-navbar").offsetTop;
+  if (window.pageYOffset >= animationApplied) {
+    fadeInAnimation.classList.add("chef-pop");
+  }
+}
+
+function chefTextPopUp() {
+  let fadeInAnimation = document.getElementById("chef-h2");
+  let animationApplied =
+    document.getElementById("contenitore-navbar").offsetTop;
+  if (window.pageYOffset >= animationApplied) {
+    fadeInAnimation.classList.add("chef-pop");
+  }
+}
+
+function greyTextPopUp() {
+  let fadeInAnimation = document.getElementById("grey-text-p");
+  let animationApplied =
+    document.getElementById("contenitore-navbar").offsetTop;
+  if (window.pageYOffset >= animationApplied) {
+    fadeInAnimation.classList.add("grey-text-fade");
+  }
+}
+//fine animazione Luigi Crisci
