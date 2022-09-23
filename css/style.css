@@ -312,17 +312,23 @@ main {
     text-align: left;
     margin-right: 4vw;
     margin-left: 0vw;
-  }#border-bottom {
+  }
+  #border-bottom {
     width: 82vw;
-  }#border-bottom2 {
+  }
+  #border-bottom2 {
     width: 74.9vw;
-  }#border-bottom3 {
+  }
+  #border-bottom3 {
     width: 75.7vw;
-  }#border-bottom4 {
+  }
+  #border-bottom4 {
     width: 82.2vw;
-  }#border-bottom5 {
+  }
+  #border-bottom5 {
     width: 67.3vw;
-  }#border-bottom6 {
+  }
+  #border-bottom6 {
     width: 84.3vw;
   }
 }
@@ -331,36 +337,48 @@ main {
     text-align: left;
     margin-right: 4vw;
     margin-left: 0vw;
-  }#border-bottom {
+  }
+  #border-bottom {
     width: 80vw;
-  }#border-bottom2 {
+  }
+  #border-bottom2 {
     width: 71.7vw;
-  }#border-bottom3 {
+  }
+  #border-bottom3 {
     width: 72.3vw;
-  }#border-bottom4 {
+  }
+  #border-bottom4 {
     width: 80vw;
-  }#border-bottom5 {
+  }
+  #border-bottom5 {
     width: 62.7vw;
-  }#border-bottom6 {
+  }
+  #border-bottom6 {
     width: 82.7vw;
   }
 }
-@media screen and (min-width: 900px) and (max-width:950px) {
+@media screen and (min-width: 900px) and (max-width: 950px) {
   #section-price {
     text-align: left;
     margin-right: 4vw;
     margin-left: 0vw;
-  }#border-bottom {
+  }
+  #border-bottom {
     width: 77.5vw;
-  }#border-bottom2 {
+  }
+  #border-bottom2 {
     width: 68.2vw;
-  }#border-bottom3 {
+  }
+  #border-bottom3 {
     width: 69vw;
-  }#border-bottom4 {
+  }
+  #border-bottom4 {
     width: 77.8vw;
-  }#border-bottom5 {
+  }
+  #border-bottom5 {
     width: 58.2vw;
-  }#border-bottom6 {
+  }
+  #border-bottom6 {
     width: 80.7vw;
   }
 }
@@ -369,17 +387,23 @@ main {
     text-align: left;
     margin-right: 4vw;
     margin-left: 0vw;
-  }#border-bottom {
+  }
+  #border-bottom {
     width: 74.1vw;
-  }#border-bottom2 {
+  }
+  #border-bottom2 {
     width: 63vw;
-  }#border-bottom3 {
+  }
+  #border-bottom3 {
     width: 64vw;
-  }#border-bottom4 {
+  }
+  #border-bottom4 {
     width: 74.4vw;
-  }#border-bottom5 {
+  }
+  #border-bottom5 {
     width: 51.3vw;
-  }#border-bottom6 {
+  }
+  #border-bottom6 {
     width: 77.7vw;
   }
 }
@@ -388,28 +412,38 @@ main {
     text-align: left;
     margin-right: 4vw;
     margin-left: 0vw;
-  }#border-bottom {
+  }
+  #border-bottom {
     display: none;
-  }#border-bottom2 {
+  }
+  #border-bottom2 {
     display: none;
-  }#border-bottom3 {
+  }
+  #border-bottom3 {
     display: none;
-  }#border-bottom4 {
+  }
+  #border-bottom4 {
     display: none;
-  }#border-bottom5 {
+  }
+  #border-bottom5 {
     display: none;
-  }#border-bottom6 {
+  }
+  #border-bottom6 {
     display: none;
-  }.span2 {
+  }
+  .span2 {
     float: none;
     display: block;
     margin-bottom: 15px;
-  }.form {
+  }
+  .form {
     display: block;
     margin-left: 18px;
-  }.input {
+  }
+  .input {
     width: 90vw;
-  }.input2 {
+  }
+  .input2 {
     padding: 10px 0px;
     width: 23vw;
     margin-top: 20px;
@@ -800,7 +834,6 @@ header img {
   text-transform: uppercase;
 }
 
-
 #contenitore-navbar {
   display: flex;
   justify-content: space-between;
@@ -817,7 +850,6 @@ header img {
   margin-top: -60px;
   margin-bottom: 3em;
 }
-
 
 .menu-lista ul {
   display: flex;
@@ -860,8 +892,8 @@ header img {
 #carosello-bootstrap {
   width: 100%;
   display: flex;
-    justify-content: space-around;
-    animation-name: FadeInSixthDish;
+  justify-content: space-around;
+  animation-name: FadeInSixthDish;
   animation-duration: 0.3s;
   animation-delay: 0.8s;
   animation-fill-mode: both;
@@ -873,10 +905,9 @@ header img {
   animation-fill-mode: both;
 }
 
-
 .immagini-scorrevoli {
   width: 235px;
-    margin-right: 2em;
+  margin-right: 2em;
 }
 
 #carosello-tre-immagini {
@@ -916,7 +947,7 @@ header img {
 
 @media screen and (max-width: 500px) {
   .toggle-button {
-    right: -4px
+    right: -4px;
   }
 }
 
@@ -925,8 +956,8 @@ header img {
     font-size: 1em;
     right: -20px;
     top: 24px;
-}
   }
+}
 /* ^^media query navbar */
 
 @media screen and (max-width: 1180px) {
@@ -936,10 +967,9 @@ header img {
   #carosello-tre-immagini {
     width: 100%;
     display: flex;
-      justify-content: space-around;
-}
+    justify-content: space-around;
   }
-
+}
 
 @media screen and (max-width: 885px) {
   #carosello-bootstrap {
@@ -951,29 +981,26 @@ header img {
   #carosello-due-immagini {
     width: 100%;
     display: flex;
-      justify-content: space-around;
+    justify-content: space-around;
   }
 }
 
 @media screen and (max-width: 590px) {
   #carosello-due-immagini .immagini-scorrevoli {
     width: 160px;
-      margin-right: 1em;
+    margin-right: 1em;
   }
 }
 @media screen and (max-width: 400px) {
   #carosello-due-immagini .immagini-scorrevoli {
     width: 120px;
-      margin-right: 1em;
+    margin-right: 1em;
   }
 }
 
 /* ^^madia query carosello */
 
-
 /* fine media query  */
-
-
 
 .immagini-scorrevoli {
   width: 235px;
@@ -1001,7 +1028,6 @@ header img {
 .sottolineatura-menu-navbar:hover::before {
   width: 100%;
 }
-
 
 /* fine animazioni */
 /* fine css di luigi i */
