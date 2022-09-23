@@ -305,7 +305,21 @@ main {
   animation-delay: 0.5s;
   animation-fill-mode: both;
 }
-
+.goUp{
+  animation-name: goUp;
+  animation-duration: 3s;
+  visibility: visible;
+}
+@keyframes goUp{
+  0%{
+    opacity: 0;
+    transform:translateY(70%)
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
 /* Inizio media queries Antonino*/
 @media screen and (max-width: 1200px) {
   #section-price {
